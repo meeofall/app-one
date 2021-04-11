@@ -5,7 +5,7 @@ function Content() {
     return (
         <div class="container container-fluid d-block pt-5 mt-5 justify-content-center">
             <div class="container container-fluid d-inline-flex bg-dark p-4 mb-1 rounded shadow justify-content-center">
-                <div class="container container-fluid d-block p-3 col-3">
+                <div class="container container-fluid d-block p-2 m-2 col-3">
                     <h4 class="text-white">Getting started</h4>
                     <h6 class="text-white">Don't wait longer! <br /> Take the next step <i class="fa fa-hand-o-right"></i> </h6>
                 </div>
@@ -15,8 +15,8 @@ function Content() {
                     <button class="btn btn-danger" type="submit">Try iSM for free</button>
                 </div>
                 
-                <div class="container container-fluid d-grid m-3 col-4">
-                    <p class="text-white">Tell us what you're looking for in school management software. An iSM expert will help you find the best solution.</p>
+                <div class="container container-fluid d-grid m-3 p-1 col-4">
+                    <p class="text-white">What tasks do you want to solve with iSM? An expert will help you find the best solution.</p>
                     <button class="btn btn-light text-primary" type="submit">Contact Sales</button>
                 </div>
            
