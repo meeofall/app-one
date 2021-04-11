@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
     return (
        
-      <footer class="bg-white text-lg-start pt-5">
+      <footer class="bg-white text-lg-start pt-5 mt-5">
  
   <div class="container container-fluid p-2 pt-5 pb-5 row justify-content-end">
      

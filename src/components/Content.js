@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Content() {
     return (
-        <div class="container container-fluid d-block pt-4 justify-content-center">
+        <div class="container container-fluid d-block pt-5 mt-5 justify-content-center">
             <div class="container container-fluid d-inline-flex bg-dark p-4 mb-1 rounded shadow justify-content-center">
                 <div class="container container-fluid d-block p-3 col-3">
                     <h4 class="text-white">Getting started</h4>
