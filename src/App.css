@@ -11,22 +11,23 @@ body {
 }
 
 .nav-link {
-  color: rgb(85, 83, 83);
+  color: rgb(36, 35, 35);
   display: inline-block;
   font-weight: 200;
 }
 
 .nav-link:hover {
-  color: rgb(146, 70, 70);
-  background: rgb(230, 202, 248);
+  text-transform:uppercase;
+  color: rgb(109, 80, 80);
   border-radius: 3%;
   font-weight: 300;
 }
 
 /* Logo */
 .navbar-brand {
-  float: left;
-  font-weight: 100;
+  font-family: 'LazyType beta', sans-serif;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 0.01rem;
 }
 
 /* .navbar-toggler {
@@ -35,12 +36,57 @@ body {
 
 /* Hero page */
 .display-4 {
-  color: rgb(100, 97, 97);
+  color: rgb(8, 8, 8);
+  font-family: 'HVD Comic Serif Pro', sans-serif;                                             
 }
+
+.display44 {
+    margin: 1rem 0rem 0rem 3rem;
+    padding: 3rem;
+  }
+
+  .display444{
+    margin: 0rem 0rem 0rem 3rem;
+    padding: 0.1rem;
+  }
 
 .display4 {
   line-height: 2vh;
+  padding-left: 2rem;
+  margin-left: 2rem;
 }
+
+
+.easy {
+  position: relative;
+}
+
+.easy:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Place the pseudo element right under the content */
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top, rgb(243, 243, 167) 5%, transparent 50%);
+  animation: fun 1.5s infinite alternate; /* Make the animation run back and forth */
+}
+
+@keyframes fun {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+
+}
+
 .m-4 {
   line-height: 0.5vh;
 }
@@ -49,13 +95,101 @@ body {
   margin-left: 0.27rem;
 }
 
+.carousel-fade .carousel-item {
+	transition: transform 4s ease;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel-inner{
+  height: 43vh;
+}
+
+.carousel-cap{
+  background-color: rgba(47, 48, 48, 0.842);
+  height: 4vh;
+}
+
+.head-2{
+  color: rgb(226, 221, 221);
+  font-weight: 500;
+  line-height: 1px;
+}
+
+
 /*
 .img {
   vertical-align: top;
 }
 
 /* Features Page */
+.features-h2{
+  width: 85%;
+  text-align: center;
+  background-color: rgb(37, 37, 88);
+  border-radius: 50px;
+}
 
+.features-main{
+  background-color: rgb(37, 37, 88);
+  border-radius: 3px 350px 0px 350px;
+}
+
+.card{
+  width: 17rem;
+  margin: auto;
+  transition: all .2s ease-in-out; 
+  border-radius: 1rem;
+}
+
+.card:hover{
+  width: 18rem;
+  margin: auto;
+  background-color: rgb(115, 211, 206);
+  transform: scale(1.09);
+}
+
+.card-title-hold{
+  background-color: rgb(63, 79, 126);
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  margin-bottom: 0.7rem;
+  padding: 0.5px;
+}
+
+.card-title-2{
+  font: 600 1rem cursive;
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+.card-text{
+  font-size: 0.9rem;
+  text-align: center;
+  font-family:serif;
+}
+
+.card-text:hover{
+  font-weight: 900;
+}
+
+.card-img-top{
+  height: 20vh;
+}
 /*
 .card-columns {
   display: inline-block;
@@ -80,6 +214,120 @@ body {
   margin-right: 0.35rem;
 }
 
+/*Pricing*/
+ .pricing{
+   margin: 2rem;
+   padding: 2rem;
+   margin-bottom: 5rem;
+ }
+
+.pricing .card-p {
+  border: none;
+  width: auto;
+  margin: auto;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card-p:hover {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    width: 20rem;
+    background-color: rgb(115, 211, 206);
+    transform: scale(1.01);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+span.double-strike {
+  position: relative;
+}
+
+span.double-strike div.the-lines {
+   position: absolute;
+   top: 25px; /* Depends on the font size */
+   left: 0;
+   border-top: 10px double black;
+   width: 100%;
+   height: 100%;
+}
+
+/* content layout */
+
+ .content-items1{
+    display: grid;
+    margin: 1.5rem;
+    padding: .1rem 0 1rem 0;
+    left: 6%;
+  }
+
+  .content-items{
+    margin: .7rem;
+    padding: .7rem;
+    display: grid;
+  }
+
+  .second-cont{
+    display: flex;
+    padding: .6rem;
+    margin-bottom: .3rem;
+  }
+
+  .started-paragraph{
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .fa-hand-point-down{
+    display: none;
+  }
+
+
+/* Footer */
+
 .footer-container-fluid p {
   padding-left: 0.65rem;
 }
@@ -98,6 +346,33 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
+
+  #navbarNav{
+    background-color: rgb(212, 212, 214);
+  }
+
+  .nav-link{
+    color: navy;
+  }
+
+  .nav-link:hover{
+    background-color: oldlace;
+  }
+
+  .navbar-brand{
+    width: 70px;
+    height: 64px;
+  }
+
+  .navbar-toggler-icon{
+    margin-top: 15px;
+  }
+  
+  #navbarNav{
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+
   .facelift {
     position: relative;
     display: flex;
@@ -107,27 +382,150 @@ body {
 
   .display-4,
   p {
-    text-align: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 
   .display44 {
-    margin: auto;
-    width: 100%;
+    height: 55vh;
+    margin: 0rem 0rem 0rem 0.1rem;
+    padding: 0rem 0rem 0rem 2rem;
+  }
+
+  .display444{
+    margin: 0;
+    padding: 0;
   }
 
   .display4 {
     line-height: 4vh;
+    padding-left: 0rem;
   }
   .m-4 {
     line-height: 3vh;
-    text-align: left;
-    width: 90%;
+    text-align: center;
+    width: 70%;
   }
+
+  /*Pricing*/
+ 
+
+  /* content layout */
+
+  .content-items{
+    margin: .3rem;
+    padding: 1rem;
+    display: grid; 
+    float: none; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-items1{
+    display: grid;
+    left: 5px;
+    display: inline; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .fa-hand-point-right{
+    display: none;
+  }
+
+  .fa-hand-point-down{
+    display: flex;
+    width: auto;
+    margin-left: 7rem;
+    
+  }
+
+  .started-paragraph{
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-cont{
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-cont{
+    display: grid;
+    padding: .3rem;
+    margin-bottom: .3rem;
+    width: 100%;
+  }
+ 
 }
 
 @media only screen and (min-width: 540px) and (max-width: 1024px) {
   .appcapture {
     display: inline-block;
     padding-top: 35px;
+  }
+
+  #navbarNav{
+    background-color: rgb(212, 212, 214);
+  }
+
+  .nav-link{
+    color: navy;
+  }
+
+  .nav-link:hover{
+    background-color: oldlace;
+  }
+
+  .navbar-brand{
+    width: 70px;
+    height: 64px;
+  }
+
+  .navbar-toggler-icon{
+    margin-top: 15px;
+  }
+  
+  #navbarNav{
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+
+  .facelift {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+  }
+
+  .display-4,
+  p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .display44 {
+    height: 55vh;
+    margin: 0rem 0rem 0rem 1rem;
+    padding: 0rem 0rem 0rem 2rem;
+  }
+
+  .display444{
+    margin: 0;
+    padding: 0;
+  }
+
+  .display4 {
+    line-height: 4vh;
+    padding-left: 0rem;
+  }
+  .m-4 {
+    line-height: 3vh;
+    text-align: center;
+    width: 70%;
   }
 }
