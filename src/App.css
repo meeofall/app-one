@@ -10,6 +10,14 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: HVD Comic Serif Pro;
+}
+
+.display-4{
+  font-family: HVD Comic Serif Pro;
+}
+
 .nav-link {
   color: rgb(36, 35, 35);
   display: inline-block;
@@ -322,10 +330,6 @@ span.double-strike div.the-lines {
     padding: 1.5rem;
   }
 
-  .fa-hand-point-down{
-    display: none;
-  }
-
 
 /* Footer */
 
@@ -510,12 +514,6 @@ span.double-strike div.the-lines {
 
   .fa-hand-point-right{
     display: none;
-  }
-
-  .fa-hand-point-down{
-    display: flex;
-    width: auto;
-    margin-left: 8rem;
   }
 
   .started-paragraph{

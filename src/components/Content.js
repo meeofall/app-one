@@ -7,7 +7,7 @@ function Content() {
             <div class="container container-fluid bg-dark col rounded shadow justify-content-center second-cont">
                 <div class="container container-fluid col content-items1">
                     <h4 class="text-white">Getting started</h4>
-                    <h6 class="text-white">Don't wait longer! <br />Take the next step <i class="far fa-hand-point-right"></i> <i class="far fa-hand-point-down d-md-lg-none"></i></h6>
+                    <h6 class="text-white">Don't wait longer! <br />Take the next step <i class="far fa-hand-point-right"></i></h6>
                 </div>
 
                 <div class="container container-fluid col content-items">
