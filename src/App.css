@@ -10,14 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: HVD Comic Serif Pro;
-}
-
-.display-4{
-  font-family: HVD Comic Serif Pro;
-}
-
 .nav-link {
   color: rgb(36, 35, 35);
   display: inline-block;
@@ -49,7 +41,7 @@ body {
 }
 
 .display44 {
-    margin: 3rem 0rem 0rem 1rem;
+    margin: 3rem 0rem 0rem 2rem;
     padding: 2rem;
   }
 
@@ -380,8 +372,8 @@ span.double-strike div.the-lines {
   p {
     text-align: center;
     padding: 0;
-    margin: 0;
-    line-height: 4vh;
+    margin: 1rem 0 0 0;
+    line-height: 5vh;
   }
 
   .display44 {
@@ -393,15 +385,11 @@ span.double-strike div.the-lines {
 
   .display444{
     text-align: center;
-    margin: 1rem auto;
+    margin: auto;
     padding-top: 2rem;
     width: 100%;
   }
 
-  .display4 {
-    line-height: 1.2rem;
-    padding-left: 0rem;
-  }
   .m4 {
     text-align: center;
     margin: auto;
@@ -509,7 +497,7 @@ span.double-strike div.the-lines {
     left: 5px;
     width: auto;
     text-align: center;
-    margin: auto;
+    margin: 1rem;
   }
 
   .fa-hand-point-right{
