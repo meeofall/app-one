@@ -8,7 +8,7 @@ function Pricing() {
   <div class="container">
     <div class="row">
        
-      <div class="col-lg-3">
+      <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
@@ -29,7 +29,7 @@ function Pricing() {
         </div>
       </div>
        
-      <div class="col-lg-3">
+      <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
@@ -50,14 +50,14 @@ function Pricing() {
         </div>
       </div>
        
-      <div class="col-lg-3">
+      <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Premium</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>17,500<span class="period">/month</span></h6>
             <hr />
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>60-150</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>60-150 Students</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
@@ -71,14 +71,14 @@ function Pricing() {
         </div>
         </div>
                         
-        <div class="col-lg-3">
+        <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Premium Pro</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>25,000<span class="period">/month</span></h6>
             <hr />
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>150-500</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>150-500 Students</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>

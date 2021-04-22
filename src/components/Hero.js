@@ -17,7 +17,7 @@ function Hero() {
                 </div>
                 
 
-                <div class="container container-fluid m-4 p-5">
+                <div class="container container-fluid m-4 p-5 hero-carousel">
                     
                     <div id="carouselFade" class="carousel slide carousel-fade  m-1 p-1" data-ride="carousel" data-interval="9000">
   <div class="carousel-inner">
