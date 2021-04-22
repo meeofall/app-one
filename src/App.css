@@ -41,21 +41,22 @@ body {
 }
 
 .display44 {
-    margin: 1.3rem 0rem 0rem 3rem;
-    padding: 3rem;
+    margin: 3rem 0rem 0rem 1rem;
+    padding: 2rem;
   }
 
-  .display444{
-    margin: 0rem 0rem 0rem 3rem;
-    padding: 0.1rem;
+.display444{
+    margin: 0rem 0rem 1rem 3.5rem;
   }
 
 .display4 {
   line-height: 2vh;
-  padding-left: 2rem;
-  margin-left: 2rem;
 }
 
+.m4{
+  margin: 0 0 1rem 2rem;
+  line-height: .4rem;
+}
 
 .easy {
   position: relative;
@@ -115,7 +116,7 @@ body {
 }
 
 .carousel-inner{
-  height: 43vh;
+  height: auto;
 }
 
 .carousel-cap{
@@ -376,29 +377,30 @@ span.double-strike div.the-lines {
     text-align: center;
     padding: 0;
     margin: 0;
+    line-height: 4vh;
   }
 
   .display44 {
     height: 20rem;
     margin: auto;
-    padding: 1rem 0rem 0rem 2rem;
+    padding: 1rem 0rem 0rem 1rem;
     text-align: center;
   }
 
   .display444{
-    margin: auto;
-    padding: 1rem 0rem 0rem 2rem;
-    width: auto;
+    text-align: center;
+    margin: 1rem auto;
+    padding-top: 2rem;
+    width: 100%;
   }
 
   .display4 {
     line-height: 1.2rem;
     padding-left: 0rem;
   }
-  .m-4 {
-    line-height: 1vh;
+  .m4 {
     text-align: center;
-    width: 70%;
+    margin: auto;
   }
 
   .hero-carousel{

@@ -59,8 +59,8 @@ function Hero() {
         </div>
       
             <div class="bg-white display444">
-                <div class="pl-5">
-                    <div class="m-4 mb-0">
+                <div>
+                    <div class="m4">
                     <h5> Best online school management software</h5>
                     <p>(with on-the-go <b>CBT</b>)</p>
                     </div>
