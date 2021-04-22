@@ -37,7 +37,7 @@ body {
 /* Hero page */
 .display-4 {
   color: rgb(8, 8, 8);
-  font-family: 'HVD Comic Serif Pro', sans-serif;                                             
+  font-family: 'HVD Comic Serif Pro', sans-serif;                 
 }
 
 .display44 {
@@ -116,7 +116,7 @@ body {
 }
 
 .carousel-inner{
-  height: auto;
+  height: 46vh;
 }
 
 .carousel-cap{
@@ -368,12 +368,19 @@ span.double-strike div.the-lines {
     margin-top: 15px;
   }
 
-  .display-4,
-  p {
+  .display-4{
     text-align: center;
     padding: 0;
     margin: 1rem 0 0 0;
-    line-height: 5vh;
+    line-height: 4.5vh;
+    font-family: 'HVD Comic Serif Pro', sans-serif;
+  }
+
+  .lead{
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    line-height: 1.3rem;
   }
 
   .display44 {
@@ -393,6 +400,7 @@ span.double-strike div.the-lines {
   .m4 {
     text-align: center;
     margin: auto;
+    line-height: .01rem;
   }
 
   .hero-carousel{
