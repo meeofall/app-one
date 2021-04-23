@@ -208,6 +208,11 @@ body {
   text-decoration: none;
 }
 
+.footer-container{
+  margin: 3rem 0 0 4rem;
+}
+
+
 .footer-container-fluid a {
   margin-left: 1.35rem;
   font-size: small;
@@ -365,7 +370,7 @@ span.double-strike div.the-lines {
   }
 
   .navbar-toggler-icon{
-    margin-top: 15px;
+    margin-top: 13px;
   }
 
   .display-4{
@@ -530,6 +535,17 @@ span.double-strike div.the-lines {
     margin-bottom: .3rem;
     width: 100%;
   }
+
+  .started-paragraph{
+    text-align: center;
+  }
+
+
+  /*Footer*/
+
+  .footer-container {
+  margin-top: 1rem;
+}
  
 }
 
