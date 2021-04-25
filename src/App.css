@@ -130,6 +130,14 @@ body {
   line-height: 1px;
 }
 
+.hero-button{
+height: 3.3rem;
+margin: 0 .1rem 3rem 2rem;
+box-shadow: 2px 2px rgb(31, 30, 30);
+width: 11rem;
+}
+
+
 
 /*
 .img {
@@ -208,17 +216,7 @@ body {
   text-decoration: none;
 }
 
-.footer-container{
-  margin: 3rem 0 0 4rem;
-}
 
-
-.footer-container-fluid a {
-  margin-left: 1.35rem;
-  font-size: small;
-  padding: 0.25rem;
-  margin-right: 0.35rem;
-}
 
 /*Pricing*/
  .pricing{
@@ -330,6 +328,22 @@ span.double-strike div.the-lines {
 
 /* Footer */
 
+.footer-container{
+  margin: 3rem 0 0 0;
+}
+
+.footer-container-fluid a {
+  margin-left: 1.35rem;
+  font-size: small;
+  padding: 0.25rem;
+  margin-right: 0.35rem;
+  text-decoration: none;
+}
+
+.footer-container-two li a {
+  text-decoration: none;
+}
+
 .footer-container-fluid p {
   padding-left: 0.65rem;
 }
@@ -385,7 +399,7 @@ span.double-strike div.the-lines {
     text-align: center;
     padding: 0;
     margin: 1rem 0 0 0;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
   }
 
   .display44 {
@@ -544,8 +558,9 @@ span.double-strike div.the-lines {
   /*Footer*/
 
   .footer-container {
-  margin-top: 1rem;
+  margin: 1rem 0 0 0;
 }
+
  
 }
 
@@ -589,8 +604,8 @@ span.double-strike div.the-lines {
   }
 
   .display444{
-    margin: 0;
-    padding: 0;
+    margin: 1.5rem;
+    padding: 1rem;
   }
 
   .display4 {
@@ -601,6 +616,13 @@ span.double-strike div.the-lines {
     line-height: 2vh;
     text-align: center;
     width: 70%;
+  }
+
+
+  .carousel-cap p{
+    font-size: .7rem;
+    overflow-wrap: break-word;
+    line-height: .7rem;
   }
 
   /* Features Page */
@@ -662,13 +684,12 @@ span.double-strike div.the-lines {
  .pricing{
    margin: 1rem;
    padding: 1rem;
-   margin-bottom: 3rem;
  }
 
 .pricing .card-p {
   border: none;
   width: 100%;
-  margin: 4rem;
+  margin-left: 3rem;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
@@ -740,5 +761,17 @@ span.double-strike div.the-lines {
 }
 
 
+
+}
+
+@media only screen and (max-width: 1024px){
+
+  .pricing .card-p {
+  border: none;
+  width: 100%;
+  margin: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
 
 }

@@ -6,7 +6,7 @@ function Footer() {
        
       <footer class="bg-white text-lg-start footer-container">
  
-  <div class="container container-fluid p-2 pt-5 pb-5 row justify-content-end">
+  <div class="container container-fluid p-2 pt-5 pb-5 row ml-5 justify-content-end footer-container-two">
      
     <div class="row d-flex">
        
@@ -131,7 +131,7 @@ function Footer() {
           </div>
         </div>
         
-        <hr class="bg-warning"></hr>
+        <hr class="bg-warning m-5 mb-0 mt-0"></hr>
 
 
         <div class="footer-container-fluid d-flex row">
