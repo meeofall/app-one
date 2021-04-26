@@ -8,7 +8,7 @@ function Pricing() {
   <div class="container">
     <div class="row">
        
-      <div class="col-md-5 col-lg-3">
+      <div class="row row-cols col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
