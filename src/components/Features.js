@@ -21,7 +21,7 @@ function Features() {
         <div class="container-fluid features-main p-3 pb-5 shadow">
             <h2 class="text-white m-3 p-3 mb-2 features-h2">Amazing Features</h2>
             
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols row-cols-md-4 g-4">
     
         <div class="col">
         <div class="card h-100 border-0">

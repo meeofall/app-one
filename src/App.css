@@ -375,7 +375,7 @@ span.double-strike div.the-lines {
   .display-4{
     width: 100%;
     text-align: center;
-    margin: .5rem 0 0 0;
+    margin: auto;
     font-family: 'HVD Comic Serif Pro', sans-serif;
   }
 
@@ -403,9 +403,102 @@ span.double-strike div.the-lines {
 
    /* content layout */
 
-  .first-cont{
-    margin: auto;
+  .content-items1{
+    display: grid;
+    margin: 1.5rem;
+    padding: .1rem 0 1rem 0;
+    left: 6%;
   }
+
+  .content-items{
+    margin: .7rem;
+    padding: .7rem;
+    display: grid;
+  }
+
+  .second-cont{
+    display: flex;
+    padding: .6rem;
+    margin-bottom: .3rem;
+  }
+
+  .started-paragraph{
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  /* Features Page */
+.features-h2{
+  width: 85%;
+  text-align: center;
+  background-color: rgb(37, 37, 88);
+  border-radius: 50px;
+}
+
+.features-main{
+  background-color: rgb(37, 37, 88);
+  border-radius: 3px 350px 0px 350px;
+}
+
+.card{
+  width: 17rem;
+  margin: auto;
+  transition: all .2s ease-in-out; 
+  border-radius: 1rem;
+}
+
+.card:hover{
+  width: 18rem;
+  margin: auto;
+  background-color: rgb(115, 211, 206);
+  transform: scale(1.09);
+}
+
+.card-title-hold{
+  background-color: rgb(63, 79, 126);
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  margin-bottom: 0.7rem;
+  padding: 0.5px;
+}
+
+.card-title-2{
+  font: 600 1rem cursive;
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+.card-text{
+  font-size: 0.9rem;
+  text-align: center;
+  font-family:serif;
+}
+
+.card-text:hover{
+  font-weight: 900;
+}
+
+.card-img-top{
+  height: 20vh;
+}
+/*
+.card-columns {
+  display: inline-block;
+}
+*/
+
+.list {
+  color: rgb(85, 83, 83);
+  text-decoration: none;
+  font-weight: 100;
+  list-style-type: none;
+}
+
+.list-link {
+  text-decoration: none;
+}
+
 
 
   }
@@ -785,6 +878,7 @@ span.double-strike div.the-lines {
   transition: all 0.2s;
 }
 
+
 span.double-strike {
   position: relative;
 }
@@ -812,18 +906,39 @@ span.double-strike div.the-lines {
   }
 }
 
+  /* content layout */
+
+  .content-items1{
+    display: grid;
+    margin: 1.5rem;
+    padding: .1rem 0 1rem 0;
+    left: 6%;
+  }
+
+  .content-items{
+    margin: .7rem;
+    padding: .7rem;
+    display: grid;
+  }
+
+  .second-cont{
+    display: flex;
+    padding: .6rem;
+    margin-bottom: .3rem;
+  }
+
+  .started-paragraph{
+    margin: 1rem;
+    padding: 1.5rem;
+  }
 
 
+  /*Footer*/
+
+  .footer-container {
+  margin: 1rem 0;
 }
 
-@media only screen and (max-width: 1024px){
 
-  .pricing .card-p {
-  border: none;
-  width: 100%;
-  margin: auto;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
 
 }
