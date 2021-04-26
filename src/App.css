@@ -400,7 +400,12 @@ span.double-strike div.the-lines {
   .carousel-cap, .head-2{
     display: none;
   }
-  
+
+   /* content layout */
+
+  .first-cont{
+    margin: auto;
+  }
 
 
   }
@@ -426,10 +431,14 @@ span.double-strike div.the-lines {
   .navbar-brand{
     width: 60px;
     height: 70px;
-  }
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: light;
+  font-variant-caps: all-petite-caps;
+}
+  
 
   .navbar-toggler-icon{
-    margin-top: 13px;
+    margin-top: 20px;
   }
 
   .display-4{
@@ -603,10 +612,8 @@ span.double-strike div.the-lines {
   /*Footer*/
 
   .footer-container {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0;
 }
-
- 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
