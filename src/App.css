@@ -719,9 +719,9 @@ span.double-strike div.the-lines {
   margin: auto;
 }
 
-.socials {
+.socials{
   margin: auto;
-  justify-content: start;
+  justify-content: center;
 }
 
 .last-child{

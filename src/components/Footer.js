@@ -10,7 +10,7 @@ function Footer() {
      
     <div class="row d-flex justify-content-center">
        
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-3">
+      <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
         <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Why iSchoolManager</h6>
 
         <ul class="list m-3 mt-0 mb-0">
@@ -31,7 +31,7 @@ function Footer() {
       
                     
 
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-3">
+      <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
         <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Product and pricing</h6>
 
         <ul class="list m-3 mt-0 mb-0">
@@ -52,7 +52,7 @@ function Footer() {
       
                     
 
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-3">
+      <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
         <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Features</h6>
 
         <ul class="list m-3 mt-0 mb-0">
@@ -72,7 +72,7 @@ function Footer() {
                     </div>
                     
 
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-3">
+      <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
         <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Resources</h6>
 
         <ul class="list m-3 mt-0 mb-0">
