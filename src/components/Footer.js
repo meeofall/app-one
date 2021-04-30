@@ -11,7 +11,7 @@ function Footer() {
     <div class="row d-flex justify-content-center">
        
       <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
-        <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Why iSchoolManager</h6>
+        <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Why iSM</h6>
 
         <ul class="list m-3 mt-0 mb-0">
           <li>
@@ -32,7 +32,7 @@ function Footer() {
                     
 
       <div class="col-lg-2 col-md-2 mb-4 mb-md-0 pt-3">
-        <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Product and pricing</h6>
+        <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Product & pricing</h6>
 
         <ul class="list m-3 mt-0 mb-0">
           <li>

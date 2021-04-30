@@ -721,7 +721,7 @@ span.double-strike div.the-lines {
 
 .socials{
   margin: auto;
-  justify-content: center;
+  justify-content: start;
 }
 
 .last-child{
