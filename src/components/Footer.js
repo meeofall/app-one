@@ -4,11 +4,11 @@ import React from 'react'
 function Footer() {
     return (
        
-      <footer class="bg-white text-lg-start footer-container">
+      <footer class="bg-white text-lg-start footer-container justify-content-center">
  
   <div class="container container-fluid p-2 pt-5 pb-5 row ml-5 justify-content-center footer-container-two">
      
-    <div class="row d-flex">
+    <div class="row d-flex justify-content-center">
        
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-3">
         <h6 class="m-5 mt-0 mb-0 pb-2 text-black-50">Why iSchoolManager</h6>
@@ -93,7 +93,7 @@ function Footer() {
       
     </div>
     
-          <div class="container container-fluid d-flex pt-5 socials">
+          <div class="container container-fluid d-flex pt-5 socials justify-content-center">
             
             <button class="btn btn-white" type="button">
               <a href="twitter.com/inovate_os" class="link">
