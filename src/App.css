@@ -23,8 +23,7 @@ body {
 .nav-link:hover {
   text-transform:uppercase;
   color: rgb(77, 115, 141);
-  font-weight: 500;
-  text-decoration: overline;
+  font-weight: 600;
 }
 
 /* Logo */
@@ -224,7 +223,8 @@ width: 11rem;
 
 /*Pricing*/
  .pricing{
-   margin: 2rem;
+   margin: auto;
+   margin-top: 2rem;
    padding: 2rem;
    margin-bottom: 5rem;
  }

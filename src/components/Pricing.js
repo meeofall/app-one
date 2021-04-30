@@ -3,10 +3,10 @@ import React from 'react'
 function Pricing() {
     return (
         <>
-            <div class="container container-fluid pricing">
+            <div class="container container-fluid pricing justify-content-center">
                 <h2 class="pricing-h2 text-center mb-4 mt-5">Pricing</h2>
-  <div class="container">
-    <div class="row">
+  <div class="container justify-content-center">
+    <div class="row justify-content-center">
        <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
