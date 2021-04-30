@@ -16,10 +16,10 @@ function Navbar() {
       
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-          <a class="nav-link" href="#WhyiSchoolManager">Why iSchoolManager</a>
+          <a class="nav-link" href="#WhyiSchoolManager">Why iSM</a>
           <a class="nav-link" href="#getting started">Getting Started</a>
           <a class="nav-link" href="#pricing">Pricing</a>
-          <a class="nav-link" href="#contact">Contact US</a>
+          <a class="nav-link" href="#contact">Contact</a>
           <a class="nav-link" href="#doc">Docs</a>
           <a class="nav-link" href="#support">Support</a>
           <a class="nav-link" href="Faq">Faq</a>

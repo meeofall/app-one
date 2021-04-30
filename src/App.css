@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'SF UI Display', sans-serif;
 }
+
+@import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+                
 
 html,
 body {
@@ -13,20 +17,19 @@ body {
 .nav-link {
   color: rgb(36, 35, 35);
   display: inline-block;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .nav-link:hover {
   text-transform:uppercase;
-  color: rgb(109, 80, 80);
-  border-radius: 3%;
-  font-weight: 300;
+  color: rgb(77, 115, 141);
+  font-weight: 500;
+  text-decoration: overline;
 }
 
 /* Logo */
 .navbar-brand {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-variant-caps: all-petite-caps;
   letter-spacing: 0.01rem;
 }
@@ -190,7 +193,7 @@ width: 11rem;
 .card-text{
   font-size: 0.9rem;
   text-align: center;
-  font-family:serif;
+  font-family: 'SF UI Display', sans-serif;                                           
 }
 
 .card-text:hover{
@@ -228,7 +231,7 @@ width: 11rem;
 
 .pricing .card-p {
   border: none;
-  width: auto;
+  width: 100%;
   margin: auto;
   border-radius: 1rem;
   transition: all 0.2s;
@@ -278,7 +281,7 @@ width: 11rem;
 @media (min-width: 992px) {
   .pricing .card-p:hover {
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    width: 20rem;
+    width: 19rem;
     background-color: rgb(115, 211, 206);
     transform: scale(1.01);
   }
@@ -360,6 +363,11 @@ span.double-strike div.the-lines {
 .footer-newsletter button {
   font-size: small;
   margin-left: 0.45rem;
+}
+
+.socials{
+  margin: auto;
+  justify-content: center;
 }
 
 
@@ -472,7 +480,7 @@ span.double-strike div.the-lines {
 .card-text{
   font-size: 0.9rem;
   text-align: center;
-  font-family:serif;
+  font-family: 'SF UI Display', sans-serif;
 }
 
 .card-text:hover{
@@ -499,7 +507,10 @@ span.double-strike div.the-lines {
   text-decoration: none;
 }
 
-
+.socials{
+  margin: auto;
+  justify-content: center;
+}
 
   }
 
@@ -705,7 +716,30 @@ span.double-strike div.the-lines {
   /*Footer*/
 
   .footer-container {
-  margin: 1rem 0;
+  margin: auto;
+}
+
+.socials {
+  margin: auto;
+  justify-content: start;
+}
+
+.last-child{
+  justify-content: center;
+  margin: auto;
+}
+
+.footer-container-fluid a {
+  font-size: small;
+  text-decoration: none;
+}
+
+.footer-container-two li a {
+  text-decoration: none;
+}
+
+.footer-container-fluid p {
+  padding-left: 0.65rem;
 }
 }
 
@@ -813,7 +847,7 @@ span.double-strike div.the-lines {
 .card-text{
   font-size: .7rem;
   text-align: center;
-  font-family:serif;
+  font-family: 'SF UI Display', sans-serif;
 }
 
 .card-text:hover{
@@ -937,6 +971,11 @@ span.double-strike div.the-lines {
 
   .footer-container {
   margin: 1rem 0;
+}
+
+.socials{
+  margin: auto;
+  justify-content: center;
 }
 
 
