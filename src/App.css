@@ -571,7 +571,7 @@ span.double-strike div.the-lines {
     text-align: center;
     margin: auto;
     padding-top: 2rem;
-    width: 100%;
+    width: auto;
   }
 
   .m4 {
