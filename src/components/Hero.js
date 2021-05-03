@@ -19,7 +19,7 @@ function Hero() {
 
                 <div class="container container-fluid m-4 p-5 hero-carousel">
                     
-                    <div id="carouselFade" class="carousel slide carousel-fade  m-1 p-1" data-ride="carousel" data-interval="9000">
+                    <div id="carouselFade" class="carousel slide carousel-fade  m-1 p-1" data-ride="carousel" data-interval="2000">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <img class="d-block w-100" src={AppCapture} alt="First slide"></img>
