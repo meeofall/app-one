@@ -4,7 +4,8 @@ function Pricing() {
     return (
         <>
             <div class="container container-fluid pricing justify-content-center">
-                <h2 class="pricing-h2 text-center mb-4 mt-5">Pricing</h2>
+          <h2 class="pricing-h2 text-center mb-2 mt-5">Pricing</h2>
+          <p class="text-center mb-4">At iNovate OS, we believe in clear and simple pricing. That’s why we operate iSM on a month-to-month subscription based pricing model.</p>
   <div class="container justify-content-center">
     <div class="row justify-content-center">
        <div class="col-md-5 col-lg-3">

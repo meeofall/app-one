@@ -6,6 +6,7 @@
 }
 
 @import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
                 
 
 html,
@@ -27,10 +28,9 @@ body {
 }
 
 /* Logo */
-.navbar-brand {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.imgname{
+  font-family: 'HVD Comic Serif Pro';
   font-variant-caps: all-petite-caps;
-  letter-spacing: 0.01rem;
 }
 
 /* .navbar-toggler {
@@ -160,14 +160,14 @@ width: 11rem;
   border-radius: 3px 350px 0px 350px;
 }
 
-.card{
+.feature-card{
   width: 17rem;
   margin: auto;
   transition: all .2s ease-in-out; 
   border-radius: 1rem;
 }
 
-.card:hover{
+.feature-card:hover{
   width: 18rem;
   margin: auto;
   background-color: rgb(115, 211, 206);
@@ -332,6 +332,74 @@ span.double-strike div.the-lines {
 
 /* Footer */
 
+.contact2 {
+  background-image: url("https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/map.jpg");
+  font-family: 'SF UI Display';
+  font-weight: 800;
+	padding: 60px 0;
+  margin-bottom: 170px;
+  background-position: center top;
+}
+
+.bg-image{
+  background-image: url("https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/1.jpg");
+  color: white;
+}
+
+
+.contact2 .bg-image {
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact2 .card.card-shadow{
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  border-radius: 10px;
+}
+
+.contact2 .detail-box .round-social {
+  margin-top: 100px;
+}
+
+.contact2 .round-social a {
+  background: transparent;
+  margin: 0 7px;
+  padding: 11px 12px;
+}
+
+.contact2 .contact-container .links a {
+  color: #51648f;
+}
+
+.contact2 .contact-container {
+  position: relative;
+  top: 180px;
+}
+
+.contact2 .btn-danger-gradiant {
+  background: #6075eb;
+  background: -webkit-linear-gradient(legacy-direction(to right), #428bcf 0%, #456bcf 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#428bcf), to(#456bcf));
+  background: -webkit-linear-gradient(left, #428bcf 0%, #456bcf 100%);
+  background: -o-linear-gradient(left, #428bcf 0%, #456bcf 100%);
+  background: linear-gradient(to right, #428bcf 0%, #456bcf 100%);
+}
+
+ .contact2 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: -webkit-linear-gradient(legacy-direction(to right), #456bcf 0%, #428bcf 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#456bcf), to(#428bcf));
+  background: -webkit-linear-gradient(left, #456bcf 0%, #428bcf 100%);
+  background: -o-linear-gradient(left, #456bcf 0%, #428bcf 100%);
+  background: linear-gradient(to right, #456bcf 0%, #428bcf 100%);
+}
+
 .footer-container{
   margin: 3rem 0 0 0;
 }
@@ -372,19 +440,24 @@ span.double-strike div.the-lines {
 
 
 /*Landscape*/
-@media only screen and (min-width: 200px) and (max-width: 823px) and (orientation : landscape) {
+@media only screen and (max-width: 823px) and (orientation : landscape) {
  
   .display44 {
     margin: auto;
     height: 30vh;
     width: 100%;
+    justify-content: center;
   }
 
-  .display-4{
+  .display4{
     width: 100%;
     text-align: center;
     margin: auto;
     font-family: 'HVD Comic Serif Pro', sans-serif;
+  }
+
+  .hero-carousel{
+    display: none;
   }
 
   .lead{
@@ -448,14 +521,14 @@ span.double-strike div.the-lines {
   border-radius: 3px 350px 0px 350px;
 }
 
-.card{
+.feature-card{
   width: 17rem;
   margin: auto;
   transition: all .2s ease-in-out; 
   border-radius: 1rem;
 }
 
-.card:hover{
+.feature-card:hover{
   width: 18rem;
   margin: auto;
   background-color: rgb(115, 211, 206);
@@ -512,10 +585,24 @@ span.double-strike div.the-lines {
   justify-content: center;
 }
 
+/*Footer*/
+
+.contact2 .bg-image {
+  background-size: cover;
+  width: 400px;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
   }
 
 
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
   #navbarNav{
     background-color: rgb(212, 212, 214);
@@ -535,9 +622,10 @@ span.double-strike div.the-lines {
   .navbar-brand{
     width: 60px;
     height: 70px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: light;
-  font-variant-caps: all-petite-caps;
+}
+
+.imgname{
+  display: none;
 }
   
 
@@ -719,9 +807,10 @@ span.double-strike div.the-lines {
   margin: auto;
 }
 
-.socials{
-  margin: auto;
-  justify-content: start;
+.bg-image{
+  background-image: none;
+  color: #6075eb;
+  justify-content: center;
 }
 
 .last-child{
@@ -743,7 +832,7 @@ span.double-strike div.the-lines {
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
  
   #navbarNav{
     background-color: white;
@@ -816,13 +905,13 @@ span.double-strike div.the-lines {
   border-radius: 3px 350px 0px 350px;
 }
 
-.card{
+.feature-card{
   width: auto;
   transition: all .2s ease-in-out; 
   border-radius: 1rem;
 }
 
-.card:hover{
+.feature-card:hover{
   width: auto;
   margin: auto;
   background-color: rgb(115, 211, 206);
@@ -868,7 +957,7 @@ span.double-strike div.the-lines {
 .pricing .card-p {
   border: none;
   width: 100%;
-  margin-left: 3rem;
+  margin:auto;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
@@ -973,6 +1062,17 @@ span.double-strike div.the-lines {
   margin: 1rem 0;
 }
 
+.contact2 .bg-image {
+  background-size: cover;
+  width: 16rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 10px 10px 0;
+}
+
 .socials{
   margin: auto;
   justify-content: center;
@@ -980,4 +1080,45 @@ span.double-strike div.the-lines {
 
 
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact2 .bg-image {
+  background-size: cover;
+  width: 16rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1366px)  and (orientation : landscape) {
+  .bg-image {
+  background-size: cover;
+  width: 19.1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .contact2 .bg-image {
+  background-size: cover;
+  width: 16rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 10px 10px 0;
+}
 }
