@@ -497,6 +497,11 @@ span.double-strike div.the-lines {
     display: grid;
   }
 
+  .first-cont{
+    display: flex;
+    margin: auto;
+  }
+
   .second-cont{
     display: flex;
     padding: .6rem;
