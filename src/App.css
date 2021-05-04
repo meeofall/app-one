@@ -266,7 +266,7 @@ width: 11rem;
 }
 
 .pricing .btn {
-  font-size: 80%;
+  font-size: 90%;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
@@ -487,7 +487,6 @@ span.double-strike div.the-lines {
     display: grid;
     margin: 1.5rem;
     padding: .1rem 0 1rem 0;
-    left: 6%;
   }
 
   .content-items{
@@ -503,6 +502,7 @@ span.double-strike div.the-lines {
   }
 
   .second-cont{
+    margin: auto;
     display: flex;
     padding: .6rem;
     margin-bottom: .3rem;

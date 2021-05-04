@@ -6,13 +6,13 @@ function Pricing() {
             <div class="container container-fluid pricing justify-content-center">
           <h2 class="pricing-h2 text-center mb-2 mt-5">Pricing</h2>
           <p class="text-center mb-4">At iNovate OS, we believe in clear and simple pricing. That’s why we operate iSM on a month-to-month subscription based pricing model.</p>
-  <div class="container justify-content-center">
-    <div class="row justify-content-center">
+  <div class="container">
+    <div class="row">
        <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
-          <div class="card-body">
+          <div class="card-body justify-content-center">
             <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
-            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>10,000<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>10,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1-50 Students</strong></li>
@@ -33,7 +33,7 @@ function Pricing() {
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Standard</h5>
-            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>17,500<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>17,500<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>51-150 Students</strong></li>
@@ -53,7 +53,7 @@ function Pricing() {
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Premium</h5>
-            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>25,000<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>25,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>151-250 Students</strong></li>
@@ -73,7 +73,7 @@ function Pricing() {
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Premium Pro</h5>
-            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>45,000<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>45,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Over 250 Students</strong></li>
