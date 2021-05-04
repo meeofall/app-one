@@ -618,6 +618,55 @@ span.double-strike div.the-lines {
   }
 
 
+@media only screen and (max-width: 767px) and (orientation : landscape) {
+  /* content layout */
+
+  .content-items{
+    margin: .3rem;
+    padding: 1rem;
+    display: grid; 
+    float: none; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-items1{
+    left: 5px;
+    width: auto;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .fa-hand-point-right{
+    display: none;
+  }
+
+  .started-paragraph{
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-cont{
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-cont{
+    display: grid;
+    padding: .3rem;
+    margin-bottom: .3rem;
+    width: 100%;
+  }
+
+  .started-paragraph{
+    text-align: center;
+  }
+
+}
+
+
 @media only screen and (max-width: 767px) {
 
   #navbarNav{
