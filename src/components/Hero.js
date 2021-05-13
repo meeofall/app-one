@@ -13,7 +13,7 @@ function Hero() {
             <div class="container container-fluid m-3 mt-5 pb-3 pt-5 bg-white display4">
               <h1 class="display-4">Powering Schools</h1>
                   <p class="lead">with simple, yet detailed <span class="easy"><i>'easy-to-use</i>'</span> management modules.</p>
-                  <a class="btn btn-primary btn-lg" href="https://beta-class.com/trial" role="button">Get Started for free</a>
+                  <a class="btn btn-primary btn-lg" href="https://beta-class.com/trial" target="_blank" role="button">Get Started for free</a>
                 </div>
                 
 
