@@ -19,7 +19,7 @@ function Hero() {
 
                 <div class="container container-fluid m-4 p-5 hero-carousel">
                     
-                    <div id="carouselFade" class="carousel slide carousel-fade  m-1 p-1" data-ride="carousel" data-interval="7000">
+                    <div id="carouselSlide" class="carousel slide m-1 p-1" data-ride="carousel" data-interval="7000">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <img class="d-block w-100" src={AppCapture} alt="First slide"></img>
@@ -44,11 +44,11 @@ function Hero() {
   </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselSlide" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
     <span class="sr-only"></span>
   </a>
-  <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselSlide" role="button" data-slide="next">
     <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
     <span class="sr-only"></span>
   </a>

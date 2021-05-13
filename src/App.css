@@ -99,23 +99,10 @@ body {
   margin-left: 0.27rem;
 }
 
-.carousel-fade .carousel-item {
-	transition: transform 4s ease;
-}
-
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-	opacity: 0;
-}
-
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-prev {
-	transform: translateX(0);
-	transform: translate3d(0, 0, 0);
+.carousel {
+     width:100% !important; 
+     overflow: hidden !important; 
+     right:0 !important; 
 }
 
 .carousel-inner{
