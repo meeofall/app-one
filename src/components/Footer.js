@@ -11,47 +11,47 @@ function Footer() {
 
   <div class="container container2">
     <div class="row contact-container justify-content-center">
-      <div class="col-lg-10">
+      <div class="col-lg-10 " xs="auto">
         <div class="card card-shadow border-0 mb-4">
           <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8" xs="auto">
               <div class="contact-box p-4">
                 <h4 class="title text-primary">Contact Us</h4>
                 <form>
                   <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" xs="auto">
                       <div class="form-group mt-3 text-primary">
                         <input class="form-control text-success" type="text" placeholder="Name" />
                       </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" xs="auto">
                       <div class="form-group mt-3">
                         <input class="form-control text-success" type="text" placeholder="E-mail" />
                       </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" xs="auto">
                       <div class="form-group mt-3">
                         <input class="form-control text-success" type="text" placeholder="Phone" />
                       </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5" xs="auto">
                       <div class="form-group mt-3">
                         <input class="form-control text-success" type="text" placeholder="Location" />
                       </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-10" xs="auto">
                       <div class="form-group mt-3">
                         <textarea class="form-control text-success" rows="4" placeholder="Message"></textarea>
                       </div>
                     </div>
-                    <div class="col-lg-10">
+                    <div class="col-lg-10" xs="auto">
                       <button type="submit" class="btn btn-danger-gradiant mt-3 mb-3 text-white border-0 py-2 px-3">SUBMIT</button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="col-lg-4 bg-image">
+            <div class="col-lg-4 bg-image" xs="auto">
               <div class="detail-box p-4">
                 <h5 class="mb-3">ADDRESS</h5>
                 <p class="op-7">18 Manzini Street,

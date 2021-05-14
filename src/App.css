@@ -1080,8 +1080,7 @@ span.double-strike div.the-lines {
 
 /*Pricing*/
  .pricing{
-   margin: 1rem;
-   padding: 1rem;
+   margin: auto;
  }
 
 .pricing .card-p {

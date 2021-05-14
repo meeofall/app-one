@@ -12,12 +12,12 @@ function Content() {
 
                 <div class="container container-fluid col content-items">
                     <p class="text-white">Start your online growth, explore interactive modules, and manage your account.</p>
-                    <button class="btn btn-danger" type="submit">Try iSM for free</button>
+                    <a class="button btn btn-danger text-white" href="https://beta-class.com/trial" target="_blank" type="submit">Try iSM for free</a>
                 </div>
                 
                 <div class="container container-fluid col content-items">
                     <p class="text-white">What tasks do you want to solve with iSM? An expert will help you find the best solution.</p>
-                    <button class="btn btn-light text-primary" type="submit">Contact Sales</button>
+                    <a class="button btn btn-light text-primary" href="#" type="submit">Contact Sales</a>
                 </div>
            
             </div>

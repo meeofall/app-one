@@ -24,7 +24,7 @@ function Navbar() {
           <a class="nav-link" href="#doc">Docs</a>
           <a class="nav-link" href="#Faq">FAQs</a>
       
-          <button class="btn btn-danger" href="https://clients.inovateos.com/signup" type="submit">Get Started for free</button>
+          <a class="button btn btn-danger" href="https://clients.inovateos.com/signup" target="_blank" type="submit">Get Started for free</a>
     
     </div>
   </div>
