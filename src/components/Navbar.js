@@ -1,4 +1,5 @@
 import React from 'react';
+import{navbar} from 'react-bootstrap'
 import BetaLogo from '../images/realbeta.gif';
 
 
@@ -7,7 +8,7 @@ function Navbar() {
         <nav class="navbar navbar-light navbar-fluid fixed-top navbar-expand-lg bg-white p-0">
         <div class="container container-fluid">
           
-          <a class="navbar-brand" href="ischoolmanager.com">
+          <a class="navbar-brand" href="home">
           <img src={BetaLogo} alt="iSchoolManager Logo" width="70" height="64"></img> <span class="imgname">iNovate School Manager</span></a>
           
           <button class="navbar-toggler border-0 p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,13 +17,13 @@ function Navbar() {
       
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-          <a class="nav-link" href="#WhyiSchoolManager">Why iSM</a>
-          <a class="nav-link" href="#features">Features</a>
-          <a class="nav-link" href="#pricing">Pricing</a>
-          <a class="nav-link" href="#getting started">Getting Started</a>
-          <a class="nav-link" href="#contact">Contact</a>
-          <a class="nav-link" href="#doc">Docs</a>
-          <a class="nav-link" href="#Faq">FAQs</a>
+          <a class="nav-link" href="WhyiSchoolManager">Why iSM</a>
+          <a class="nav-link" href="features">Features</a>
+          <a class="nav-link" href="pricing">Pricing</a>
+          <a class="nav-link" href="getting started">Getting Started</a>
+          <a class="nav-link" href="contact">Contact</a>
+          <a class="nav-link" href="doc">Docs</a>
+          <a class="nav-link" href="Faq">FAQs</a>
       
           <a class="button btn btn-danger" href="https://clients.inovateos.com/signup" target="_blank" type="submit">Get Started for free</a>
     

@@ -5,8 +5,8 @@
   font-family: 'SF UI Display', sans-serif;
 }
 
-@import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+@import url(https://db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500);
                 
 
 html,
@@ -50,10 +50,12 @@ body {
 
 .display444{
     margin: 0rem 0rem 1rem 3.5rem;
+    font-family: 'SF UI Display', sans-serif;
   }
 
 .display4 {
   line-height: 2vh;
+  font-family: 'SF UI Display', sans-serif;
 }
 
 .m4{
@@ -74,7 +76,7 @@ body {
   z-index: 0; /* Place the pseudo element right under the content */
   top: 0;
   left: 0;
-  background: linear-gradient(to top, rgb(243, 243, 167) 5%, transparent 50%);
+  background: linear-gradient(to top, rgb(240, 240, 33) 5%, transparent 50%);
   animation: fun 1.5s infinite alternate; /* Make the animation run back and forth */
 }
 
@@ -127,8 +129,37 @@ box-shadow: 2px 2px rgb(31, 30, 30);
 width: 11rem;
 }
 
+/* why iSM */
 
+.bullet {
+  width: 5rem;
+}
 
+.bullet1 {
+  width: 2rem;
+  height: 2.5rem;
+}
+
+.bullet3 {
+  width: 3rem;
+  height: 2.5rem;
+}
+
+.highlighter {
+  position: relative;
+}
+
+.highlighter:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Place the pseudo element right under the content */
+  top: 20%;
+  left: 0;
+  background: linear-gradient(to top, rgba(178, 245, 115, 0.527) 1%, transparent 50%);
+  transform: skewX(-15deg);
+}
 /*
 .img {
   vertical-align: top;
@@ -315,8 +346,40 @@ span.double-strike div.the-lines {
     padding: 1.5rem;
   }
 
+  /*FAQ */
+  .faqbgimg{
+    height: auto;
+    width: 100%;
+    background-color: rgba(204, 11, 11, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
 
-/* Footer */
+  .accordion-flush{
+    background-color: rgb(223, 77, 77); /* Fallback color */
+    background-color: rgba(100, 65, 65, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 3rem;
+    text-align: left;
+  }
+
+
+/* Contact us */
+
+.contact1{
+  justify-content: center;
+  text-align: center;
+}
 
 .contact2 {
   background-image: url("https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/map.jpg");
@@ -327,11 +390,46 @@ span.double-strike div.the-lines {
   background-position: center top;
 }
 
+.contact-icons{
+  color: green;
+  width: 4rem;
+  font-size: 2.5rem;
+}
+
+.contact-icons{
+  -webkit-animation: shake 0.7s ease-in-out 20 alternate;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+
+.contact-link{
+  justify-content: center;
+}
+
+.contact-link a{
+  text-decoration: none;
+  color: brown;
+  text-align: center;
+  font-weight: 800;
+}
+
 .bg-image{
   background-image: url("https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/1.jpg");
   color: white;
 }
-
 
 .contact2 .bg-image {
   background-size: cover;
@@ -359,9 +457,6 @@ span.double-strike div.the-lines {
   padding: 11px 12px;
 }
 
-.contact2 .contact-container .links a {
-  color: #51648f;
-}
 
 .contact2 .contact-container {
   position: relative;
@@ -386,43 +481,103 @@ span.double-strike div.the-lines {
   background: linear-gradient(to right, #456bcf 0%, #428bcf 100%);
 }
 
+
+/* Footer */
+
+.footer-card {
+    padding: 50px;
+    background-color: #1565C0;
+    color: #fff;
+}
+
+ .footerlinks{
+   text-decoration: none;
+    color: #fff;
+}
+
+  .footerlinks:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.form-control {
+    border: none;
+    margin-left: 0;
+    background-color: #1565C0;
+    color: #fff;
+}
+
+input {
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+::-webkit-input-placeholder {
+    color: #E1F5FE !important;
+}
+
+::-moz-placeholder {
+    color: #E1F5FE !important;
+}
+
+:-ms-input-placeholder {
+    color: #E1F5FE !important;
+}
+
+:-moz-placeholder {
+    color: #E1F5FE !important;
+}
+
+.form-head {
+    padding-left: 10px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.custom-control-label {
+    font-size: 14px !important;
+    color: #E1F5FE;
+}
+
+.custom-control-input{
+  background-color: white;
+
+}
+
+.get-input {
+    padding-left: 0;
+}
+
+.get-input1 {
+    padding-left: 0;
+    border: .5px solid white;
+    border-radius: 3px;
+}
+
+button {
+    color: #1565C0 !important;
+    font-weight: bold !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 0 !important;
+}
+
+button:hover {
+    color: #1565C0 !important;
+    background-color: #fff;
+}
+
+
 .footer-container{
   margin: 3rem 0 0 0;
 }
 
-.footer-container-fluid a {
-  margin-left: 1.35rem;
-  font-size: small;
-  padding: 0.25rem;
-  margin-right: 0.35rem;
-  text-decoration: none;
-}
 
-.footer-container-two li a {
-  text-decoration: none;
-}
-
-.footer-container-fluid p {
-  padding-left: 0.65rem;
-}
-
-.footer-newsletter {
-  padding-top: 1rem;
-}
-
-.footer-newsletter p {
-  font-size: small;
-}
-
-.footer-newsletter button {
-  font-size: small;
-  margin-left: 0.45rem;
-}
-
-.socials{
-  margin: auto;
-  justify-content: center;
-}
 
 
 /*Landscape*/
