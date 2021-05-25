@@ -248,6 +248,58 @@ width: 11rem;
   text-decoration: none;
 }
 
+/* New features carousel*/
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  
+}
+
+.features-head-div h2{
+  font-family: 'HVD Comic Serif Pro';
+  text-align: center;
+}
+.feature-short{
+  width: 5rem;
+  height: auto;
+  margin: 1rem;
+  
+}
+.glassy1{
+  width: 1rem;
+}
+.glassy{
+  height: 50vh;
+  width: auto;
+
+}
+
+.card-title{
+  font-weight: 600;
+  font-family: 'SF UI Display', sans-serif;
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card-text{
+  text-align: left;
+  text-indent: 25%;
+  line-height: .5rem;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: 'SF UI Display', sans-serif;
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 /*Pricing*/
 
@@ -358,7 +410,10 @@ body{
 .list-group{
     position: fixed; /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
     top: 220px;
-   
+    border: 2px solid gray;
+    border-style: hidden hidden hidden solid;
+    border-radius: 0;
+    display: inline;
 }
 
 .getstarted{
@@ -376,16 +431,30 @@ body{
   font-weight: 600;
 }
 
-#section2{
-  border: 1px solid rgba(231, 231, 231, 0.897);
+.rm-decoration{
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  font-weight: 600;
+  font-size: small;
+}
+
+
+
+.rm-decoration:hover{
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+}
+
+#section2, #section3, #section4{
+  border: 3px solid rgba(10, 155, 212, 0.897);
+  border-style: hidden hidden hidden solid;
+  background-color: rgba(177, 232, 253, 0.897);
   border-radius: 5px;
-  padding: 3.5rem .5rem .5rem .5rem;
+  padding: 3.5rem .5rem .5rem 1rem;
   margin: 7rem 0 1rem 0;
 }
 
-.list-group:active{
-    background-color: white;
-}
+
 
 
 /* content layout */
@@ -510,8 +579,8 @@ body{
 }
 
 .contact2 .card.card-shadow{
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
   border-radius: 10px;
 }
 
@@ -551,6 +620,10 @@ body{
 
 
 /* Footer */
+
+.footer-logo{
+  height: 9.4vh;
+}
 
 .footaa h6{
   color: #1565C0;

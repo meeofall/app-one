@@ -5,7 +5,7 @@ import BetaLog from '../images/betallgg.png';
 function Footer() {
     return (
        
-      <footer class="text-lg-start footer-container justify-content-center bg-light footaa">
+      <footer class="text-lg-start footer-container container-fluid justify-content-center bg-light d-inline-block footaa">
         
         <div class="container-fluid px-0 py-2 mx-auto footerlink">
     <div class="row justify-content-center mx-auto">
@@ -75,7 +75,7 @@ function Footer() {
 
                 <div class="row">
                     <div class="col-md-2">
-                        <div class="row justify-content-center justify-content-md-start w-50"> <img src={BetaLog} alt="..."></img> </div>
+                        <div class="row justify-content-center justify-content-md-start w-50"> <img class="footer-logo" src={BetaLog} alt="..."></img> </div>
                     </div>
                     <div class="col-md-7 d-flex justify-content-center mb-3">
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">About</a> </div>
