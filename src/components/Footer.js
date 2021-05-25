@@ -5,42 +5,42 @@ import BetaLog from '../images/betallgg.png';
 function Footer() {
     return (
        
-      <footer class="bg-white text-lg-start footer-container justify-content-center">
+      <footer class="text-lg-start footer-container justify-content-center bg-light footaa">
         
-        <div class="container-fluid px-0 py-2 mx-auto bg-primary footerlink">
+        <div class="container-fluid px-0 py-2 mx-auto footerlink">
     <div class="row justify-content-center mx-auto">
         <div class="col-12 px-xs-0 col-md-11">
-            <div class="card footer-card bg-primary border-0">
+            <div class="card footer-card border-0 bg-light">
                 <div class="row justify-content-center">
                      
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="box">
-                                    <h5>Want to create <br />something together?</h5> <a class="footerlinks" href="#">
+                                    <h6>Want to create something together?</h6> <a class="footerlinks" href="#">
                                         <p>Get in touch</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="box">
-                                    <p class="mb-0">Abuja office</p>
-                                    <h6><b>18 Manzini Street<br />Wuse Zone 4</b></h6>
+                                    <h6 class="mb-0">Abuja office</h6>
+                                    <p><b>18 Manzini Street<br />Wuse Zone 4</b></p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="box">
-                                    <h5>Help us make cool things!</h5> <a class="footerlinks" href="#">
+                                    <h6>Help us make cool things!</h6> <a class="footerlinks" href="#">
                                         <p>Check our open positions</p>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-md-6 pb-5">
                                 <div class="box">
-                                    <p class="mb-0">Enugu office</p>
-                                    <h6><b>?? ?????? Street<br />???? ???? ???</b></h6>
+                                    <h6 class="mb-0">Enugu office</h6>
+                                    <p><b>?? ?????? Street<br />???? ???? ???</b></p>
                                 </div>
                             </div>
                         </div>
@@ -48,18 +48,19 @@ function Footer() {
                     <div class="col-md-4">
                         <div>
                              
-                            <h5 class="form-head">Keep up with news from us</h5>
-                            <form onsubmit="event.preventDefault()" class="form-control bg-primary border-0">
-                                <div class="form-group">
-                          <div class="col-10 get-input get-input1"> <input id="e-mail" type="text" placeholder="first.last@email.com" name="email"
-                            class="form-control input-box rm-border bg-primary border-0" onfocus="this.placeholder = ''" onblur="this.placeholder = 'first.last@gmail.com'" /> </div>
-                                </div>
-                                <div class="form-group">
+                            <h6 class="form-head text-primary">Keep up with news from us</h6>
+                                        <form onsubmit="event.preventDefault()" class="form-control border-0 bg-light">
+                                            <input id="e-mail" type="text" placeholder="first.last@email.com" name="email"
+                            class="form-control input-box rm-border bg-light border-0 rounded shadow" onfocus="this.placeholder = ''" onblur="this.placeholder = 'first.last@gmail.com'" />
+                                        </form><br />
+                                        
+                                        <form>
+                                
                                     <div class="col-12 get-input">
                             <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" class="custom-control-input" />
-                              <label for="chk1" class="custom-control-label consent">I give my consent that my personal information can be collected and used according to the <a class="footerlinks" href="#"><span>Privacy Policy</span></a></label> </div>
+                              <label for="chk1" class="custom-control-label consent text-primary">I give my consent that my personal information can be collected and used according to the <a class="footerlinks" href="#"><span>Privacy Policy</span></a></label> </div>
                                     </div>
-                                </div>
+                               
                                 <div class="form-group">
                                     <div class="col-md-12 px-4 py-2 get-input pb-5 mb-5"> <button type="submit" class="btn btn-submit bg-warning rm-border">SUBSCRIBE</button> </div>
                                 </div>

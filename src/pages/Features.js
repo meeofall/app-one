@@ -14,9 +14,9 @@ import Picstory11 from '../images/studentparent.png';
 
 function Features() {
     return (
-        <div class="pt-5">
+        <div class="pt-5 features-main-page">
             <div class="container-fluid p-3 pb-5 mt-4">
-            <h2 class="text-primary text-center m-3 p-3 mb-4">Features</h2>
+            <h2 class="text-center m-3 p-3 pt-5 mb-4 features-2">Features</h2>
             
     <div class="row row-cols row-cols-md-4 g-4">
     

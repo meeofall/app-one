@@ -7,6 +7,8 @@ import Contact from './pages/Contact.js';
 import Pricing1 from './components/pricing.js';
 import Footer from './components/Footer.js';
 import Faq from './pages/Faq.js';
+import Pricing from './pages/Pricing.js';
+import GettingStarted from './pages/GettingStarted.js';
 import Home from './pages/Home.js';
 import WhyiSchoolManager from './pages/WhyiSchoolManager.js';
 import Features from './pages/Features.js';
@@ -20,33 +22,42 @@ function App() {
       <Router>
         <Navbar />
           <Switch>
-            <Route exact path="/Home">
+            <Route exact path="/">
           <Hero />
           <Features1 />
           <Pricing1 />
           <Content1 />
           <Footer />
-            </Route>
+      </Route>
 
-         <Route path="/Contact">
-                <Contact />
-              </Route>
+      <Route path="/Contact">
+        <Contact />
+      </Route>
             
         <Route path="/WhyiSchoolManager">
           <WhyiSchoolManager />
           <Footer />
         </Route>
 
-        <Route path="/">
+        <Route path="/Features">
           <Features />
           <Footer />
-            </Route>
+        </Route>
 
+        <Route path="/Pricing">
+          <Pricing />
+          <Footer />
+        </Route>
+
+        <Route path="/getting-started">
+          <GettingStarted />
+          <Footer />
+        </Route>
              
 
-            <Route path="/">
-              <Faq />
-            </Route>
+        <Route path="/Faq">
+          <Faq />
+        </Route>
             
       </Switch>
      

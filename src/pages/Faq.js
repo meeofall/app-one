@@ -4,13 +4,13 @@ import BetaLog from '../images/betallgg.png';
 
 function Faq() {
     return (
-        <>
-        <div class="container-fluid faq-main"><img class="faqbgimg" src={Faqbg} alt="..." />
+        
+        <div class="faq-main"><img class="faqbgimg" src={Faqbg} alt="..." />
             <div class="accordion accordion-flush" id="accordionFlushExample"><h2 class="text-center pb-5">Frequently Asked Questions</h2>
   <div class="accordion-item">
     <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
+      <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        How do I subscribe?
       </button>
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -99,22 +99,17 @@ function Faq() {
       <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
     </div>
                 </div>
-                
-            </div>
-            
-        
-               
-         
-            
+           
         </div>
-<div class="bg-secondary text-lg-start div-container justify-content-center p-5">
+            
+      
+<div class="bg-dark text-lg-start div-container justify-content-center p-5">
         
         
-                            
 
                 <div class="row">
                     <div class="col-md-2">
-                        <div class="row justify-content-center justify-content-md-start w-50"> <img src={BetaLog} alt="..."></img> </div>
+                        <div class="row justify-content-center justify-content-md-start w-50"> </div>
                     </div>
                     <div class="col-md-7 d-flex justify-content-center mb-3">
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">About</a> </div>
@@ -144,19 +139,10 @@ function Faq() {
                                 <div class="fa fa-google-plus"></div>
                             </div>
                     </a> </div>
-                
-
-
 
 </div>
- 
-        
-        
-        
-            
-</div>
-
-        </>
+        </div>
+</div>        
     )
 }
 
