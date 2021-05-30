@@ -9,7 +9,7 @@ function Navbar() {
         <div class="container container-fluid">
           
           <a class="navbar-brand" href="Home">
-          <img src={BetaLogo} alt="iSchoolManager Logo" width="70" height="64"></img> <span class="imgname">iNovate School Manager</span></a>
+          <img src={BetaLogo} alt="iSchoolManager Logo" width="70" height="64"></img> <span class="imgname text-primary">iNovate School Manager</span></a>
           
           <button class="navbar-toggler border-0 p-0 m-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>

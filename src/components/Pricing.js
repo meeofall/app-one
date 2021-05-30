@@ -4,14 +4,14 @@ function Pricing() {
     return (
         <>
             <div class="container container-fluid pricing justify-content-center">
-          <h2 class="pricing-h2 text-center mb-2 mt-5">Pricing</h2>
+          <h2 class="pricing-h2 text-center mb-5 mt-3">Pricing</h2>
   
           <div class="container">
     <div class="row">
        <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body justify-content-center">
-            <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
+            <h5 class="card-title  glassy2 text-muted text-uppercase text-center">Basic</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>10,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
@@ -32,7 +32,7 @@ function Pricing() {
       <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Standard</h5>
+            <h5 class="card-title  glassy2 text-muted text-uppercase text-center">Standard</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>17,500<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
@@ -52,7 +52,7 @@ function Pricing() {
       <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Premium</h5>
+            <h5 class="card-title  glassy2 text-muted text-uppercase text-center">Premium</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>25,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">
@@ -72,7 +72,7 @@ function Pricing() {
         <div class="col-md-5 col-lg-3">
         <div class="card-p mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Premium Pro</h5>
+            <h5 class="card-title  glassy2 text-muted text-uppercase text-center">Premium Pro</h5>
             <h6 class="card-price text-center"><span class="double-strike"><div class="the-lines"></div>N</span>45,000<span class="period">/ month</span></h6>
             <hr />
             <ul class="fa-ul">

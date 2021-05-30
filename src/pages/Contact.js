@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
     return (
-      <div class="container container-fluid">
+      <div class="fluid">
         
         <div class="container container-fluid bg-white contact1 pt-5 mt-5">
           <h3 class="pt-3 mt-3">Connect with us</h3>
@@ -91,8 +91,55 @@ function Contact() {
       </div>
     </div>
   </div>
-        </div>    
         </div>
+
+        <div class="bg-dark text-lg-start div-container justify-content-center p-5">
+        
+        
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="row justify-content-center justify-content-md-start w-50"> </div>
+                    </div>
+                    <div class="col-md-7 d-flex justify-content-center mb-3">
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">About</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Terms</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Privacy</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
+                    </div>
+                    <div class="col-md-3 justify-content-center d-flex"> <a class="footerlinks" href="#">
+                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                <div class="fa fa-facebook"></div>
+                            </div>
+                        </a> <a class="footerlinks" href="#">
+                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                <div class="fa fa-twitter"></div>
+                            </div>
+                        </a> <a class="footerlinks" href="#">
+                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                <div class="fa fa-instagram"></div>
+                            </div>
+                        </a> <a class="footerlinks" href="#">
+                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                <div class="fa fa-linkedin"></div>
+                            </div>
+                        </a> <a class="footerlinks" href="#">
+                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                                <div class="fa fa-google-plus"></div>
+                            </div>
+                    </a> </div>
+
+</div>
+        </div>
+    
+      
+
+        
+      </div>
+      
+
+      
     )
 }
 

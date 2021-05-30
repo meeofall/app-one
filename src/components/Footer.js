@@ -5,7 +5,7 @@ import BetaLog from '../images/betallgg.png';
 function Footer() {
     return (
        
-      <footer class="text-lg-start footer-container container-fluid justify-content-center bg-light d-inline-block footaa">
+      <footer class="text-lg-start footer container-fluid justify-content-center pt-5 bg-light d-inline-block footaa">
         
         <div class="container-fluid px-0 py-2 mx-auto footerlink">
     <div class="row justify-content-center mx-auto">
@@ -18,7 +18,7 @@ function Footer() {
                             <div class="col-md-6">
                                 <div class="box">
                                     <h6>Want to create something together?</h6> <a class="footerlinks" href="#">
-                                        <p>Get in touch</p>
+                                        <p><small><b>Get in touch</b></small></p>
                                     </a>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ function Footer() {
                             <div class="col-md-6">
                                 <div class="box">
                                     <h6>Help us make cool things!</h6> <a class="footerlinks" href="#">
-                                        <p>Check our open positions</p>
+                                        <p><small><b>Check our open positions</b></small></p>
                                     </a>
                                 </div>
                             </div>
@@ -49,9 +49,9 @@ function Footer() {
                         <div>
                              
                             <h6 class="form-head text-primary">Keep up with news from us</h6>
-                                        <form onsubmit="event.preventDefault()" class="form-control border-0 bg-light">
+                                        <form onsubmit="event.preventDefault()">
                                             <input id="e-mail" type="text" placeholder="first.last@email.com" name="email"
-                            class="form-control input-box rm-border bg-light border-0 rounded shadow" onfocus="this.placeholder = ''" onblur="this.placeholder = 'first.last@gmail.com'" />
+                            class="input-box w-50 p-2 m-2 text-center rm-border bg-light border-0 rounded shadow" onfocus="this.placeholder = ''" onblur="this.placeholder = 'first.last@gmail.com'" />
                                         </form><br />
                                         
                                         <form>
@@ -83,6 +83,8 @@ function Footer() {
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Privacy</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks border-1 rounded bg-danger 
+                        m-3 mt-0 p-2 pt-0 pb-0 text-white font-weight-bold" href="Affiliate">AFFILIATE</a> </div>
                     </div>
                     <div class="col-md-3 justify-content-center d-flex"> <a class="footerlinks" href="#">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">

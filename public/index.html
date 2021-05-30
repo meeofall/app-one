@@ -64,12 +64,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-<!-- hero carousel-->
-<script>
-$('.carousel-fade').fadeCarousel({
-  itemSelector: '.carousel-item'
-});
-</script>
+
           
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -99,34 +94,20 @@ $(document).ready(function () {
 });
 </script>
 
-<!--features carousel-->
-<script type="text/javascript">
-$(document).ready(function() {
-  $("#myCarousel").on("slide.bs.carousel", function(e) {
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 2;
-    var totalItems = $(".carousel-item").length;
-
-    if (idx >= totalItems - (itemsPerSlide - 1)) {
-      var it = itemsPerSlide - (totalItems - idx);
-      for (var i = 0; i < it; i++) {
-        // append slides to end
-        if (e.direction == "left") {
-          $(".carousel-item")
-            .eq(i)
-            .appendTo(".carousel-inner");
-        } else {
-          $(".carousel-item")
-            .eq(0)
-            .appendTo($(this).find(".carousel-inner"));
-        }
-      }
-    }
+<!--Affiliates Form-->
+<script>
+  $(document).ready(function() {
+  $("#formButton").click(function() {
+    $("#form1").toggle();
   });
 });
 </script>
-<!--end of features carousel-->
+<script>
+  $('#submit').click(function() {
+    $('#form1').hide();
+    return true;
+});
+</script>
 
 
       <!--Start of Tawk.to Script-->
