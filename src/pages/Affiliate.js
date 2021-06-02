@@ -89,7 +89,7 @@ function Affiliate() {
             <br />
             <div class="bg-dark p-5 mt-5 text-center">
                 <h2 class="pl-5 m-4 mt-5 mb-5 text-danger font-weight-bold">Start Earning 10% On Each Sale For Life!</h2>
-                <a class="btn btn-info align-center affiliate-button2" href="mailto:info@inovateos.com?Subject=I/We would like to join iSM Affiliate Program!" target="_blank" role="button">Join Now</a>
+                <a class="btn btn-info align-center affiliate-button2" href="https://clients.inovateos.com/partners/signup" target="_blank" role="button">Join Now</a>
             </div>
 
     

@@ -46,7 +46,7 @@ function Footer() {
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div>
+                        <div class="input-boxx">
                              
                             <h6 class="form-head text-primary">Keep up with news from us</h6>
                                         <form onsubmit="event.preventDefault()">
@@ -77,7 +77,7 @@ function Footer() {
                     <div class="col-md-2">
                         <div class="row justify-content-center justify-content-md-start w-50"> <img class="footer-logo" src={BetaLog} alt="..."></img> </div>
                     </div>
-                    <div class="col-md-7 d-flex justify-content-center mb-3">
+                    <div class="col-md-7 d-lg-flex justify-content-center mb-3 list-links">
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">About</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Terms</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Privacy</a> </div>
@@ -86,23 +86,31 @@ function Footer() {
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks border-1 rounded bg-danger 
                         m-3 mt-0 p-2 pt-0 pb-0 text-white font-weight-bold" href="Affiliate">AFFILIATE</a> </div>
                     </div>
-                    <div class="col-md-3 justify-content-center d-flex"> <a class="footerlinks" href="#">
+                    <div class="col-md-3 justify-content-center d-flex"> <a class="footerlinks" href="https://www.facebook.com/inovateos">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                                 <div class="fa fa-facebook"></div>
-                            </div>
-                        </a> <a class="footerlinks" href="#">
+                                    </div>
+                                </a>
+                                    
+                                    <a class="footerlinks" href="https://www.twitter.com/inovate_os">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                                 <div class="fa fa-twitter"></div>
                             </div>
-                        </a> <a class="footerlinks" href="#">
+                                    </a>
+
+                                    <a class="footerlinks" href="https://www.instagram.com/inovateos">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                                 <div class="fa fa-instagram"></div>
                             </div>
-                        </a> <a class="footerlinks" href="#">
+                                    </a>
+                                    
+                                    <a class="footerlinks" href="linkedin.com/inovateos">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                                 <div class="fa fa-linkedin"></div>
                             </div>
-                        </a> <a class="footerlinks" href="#">
+                                    </a>
+                                    
+                                    <a class="footerlinks" href="#">
                             <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                                 <div class="fa fa-google-plus"></div>
                             </div>

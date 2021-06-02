@@ -23,16 +23,16 @@ function GettingStarted() {
 
            <div class="container-fluid get-started pt-1 mt-1" id="section1">
               <h1 class="get-started-h1 pt-5 mt-5">All you need to get Started</h1>
-              <a class="btn btn-success btn-md mt-2" href="https://ischoolmanager.com/trial" target="_blank" role="button">Try iSM for free</a>
-              <a class="btn btn-primary text-white btn-md mt-2 ml-5" href="https://ischoolmanager.com/contact" target="_blank" role="button">Contact Sales</a>
-              <a class="btn btn-white text-secondary border-secondary  btn-md mt-2 ml-5" href="https://ischoolmanager.com/Pricing" target="_blank" role="button">See Pricing</a>
+              <a class="btn btn-success btn-md mt-3" href="https://ischoolmanager.com/trial" target="_blank" role="button">Try iSM for free</a>
+              <a class="btn btn-primary text-white btn-md mt-3 ml-5" href="https://ischoolmanager.com/contact" target="_blank" role="button">Contact Sales</a>
+              <a class="btn btn-white text-secondary border-secondary btn-md mt-3 ml-5" href="https://ischoolmanager.com/Pricing" target="_blank" role="button">See Pricing</a>
               
 
 			
 			<div id="section2">
 				<h3 class="get-started-h3">iNovate School Manager</h3>
 				<p>Join leading schools using iSM secure, all-in-one platform to manager your school right. New schools can now use our free one month voucher to get started in any category.</p>
-            <a class="btn btn-sm btn-primary text-white" href="https://clients.inovateos.com/signup">Get Started</a>
+            <a class="btn btn-sm btn-primary text-white gs-signup" href="https://clients.inovateos.com/signup">Get Started</a>
               </div>
 
               

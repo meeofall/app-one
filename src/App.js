@@ -30,9 +30,17 @@ function App() {
           <Pricing1 />
           <Content1 />
           <Footer />
-      </Route>
+        </Route>
+        
+        <Route exact path="/Home">
+          <Hero />
+          <Features1 />
+          <Pricing1 />
+          <Content1 />
+          <Footer />
+        </Route>
 
-      <Route path="/Contact">
+      <Route path="/Contact-Us">
         <Contact />
       </Route>
             
@@ -51,7 +59,7 @@ function App() {
           <Footer />
         </Route>
 
-        <Route path="/getting-started">
+        <Route path="/Getting-Started">
           <GettingStarted />
           <Footer />
         </Route>
@@ -62,7 +70,7 @@ function App() {
         </Route>
              
 
-        <Route path="/Faq">
+        <Route path="/Faqs">
           <Faq />
         </Route>
 

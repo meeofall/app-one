@@ -13,15 +13,15 @@ function Features() {
             
         <section class="pt-5 pb-5 section-parent section-fluid justify-content-center">
             <h2 class="features-head-text text-center">Amazing Features </h2>
-  <div class="container container-fluid justify-content-center mb-5 pb-5 mt-3">
+  <div class="justify-content-center mb-4 pb-4 mt-3">
     <div class="row m-auto wrapper">
         <div class="col-6 features-head-div m-auto justify-content-center main-div main-div1"></div>
         <div class="col-6 text-right">
             <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                <i class="fa fa-arrow-left"></i>
+                <i class="fa fa-arrow-left pulley"></i>
             </a>
-            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                <i class="fa fa-arrow-right"></i>
+            <a class="btn btn-primary mb-3" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <i class="fa fa-arrow-right pulley"></i>
             </a>
         </div>
         <div class="col-12">
@@ -31,7 +31,7 @@ function Features() {
                     <div class="carousel-item active">
                         <div class="row">
 
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
                                     <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory105} /> ADMINISTRATION</h4>
                                     <div class="card-body">
@@ -43,7 +43,7 @@ function Features() {
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
                                     <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory102} /> COMMUNICATION</h4>
                                     <div class="card-body">
@@ -55,7 +55,7 @@ function Features() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
                                     <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory104} /> PORTALS</h4>
                                     <div class="card-body">
@@ -72,7 +72,7 @@ function Features() {
                     <div class="carousel-item">
                         <div class="row">
 
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
                                     <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory103} /> ACADEMICS</h4>
                                     <div class="card-body">
@@ -83,9 +83,9 @@ function Features() {
 
                                 </div>
                             </div>
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory101} /> ACCOUNT & FINANCE</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory101} /> ACCOUNT/FINANCE</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Fee Management</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Income & Expenditure Management</p>
@@ -96,7 +96,7 @@ function Features() {
                             </div>
                             
                     
-                            <div class="col-md-4 mb-3 glassy1">
+                            <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
                                     <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory106} /> ANALYTICS</h4>
                                     <div class="card-body">

@@ -1,11 +1,10 @@
 import React from 'react';
 import Faqbg from '../images/question-mark.png';
-import BetaLog from '../images/betallgg.png';
 
 function Faq() {
     return (
-        <div>
-        <div class="faq-main"><img class="faqbgimg" src={Faqbg} alt="..." />
+        <div class="faq-main1">
+        <div class="faq-main d-grid"><img class="faqbgimg" src={Faqbg} alt="..." />
             <div class="accordion accordion-flush mt-5 pt-5" id="accordionFlushExample"><h2 class="text-center pb-5">Frequently Asked Questions</h2>
 
           <div class="accordion-item">
@@ -177,6 +176,7 @@ function Faq() {
       
 
         </div>
+
 <div class="bg-dark text-lg-start div-container justify-content-center p-5">
         
         
