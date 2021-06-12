@@ -81,8 +81,8 @@ function Footer() {
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="About">About</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Terms">Terms</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Privacy">Privacy</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks text-muted" href="#">Blog</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks text-muted" href="#">Careers</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks border-1 rounded bg-danger 
                         m-3 mt-0 p-2 pt-0 pb-0 text-white font-weight-bold" href="Affiliate">AFFILIATE</a> </div>
                     </div>

@@ -77,7 +77,7 @@ function Pricing() {
             <hr />
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Over 300 Students</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1,000+GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>+500GB Storage</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Complete Access</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Email Support</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span> Free Website Sync</li>
