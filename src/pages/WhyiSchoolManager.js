@@ -8,9 +8,9 @@ import Bullet4 from '../images/cloudy.png';
 function WhyiSchoolManager() {
     return (
         <div class="mt-5 pt-5 pb-3 mb-3">
-            <div class="container container-fluid mt-4 pt-4 d-inline-block w-100 text-center">
-                <h2 class="whyischool">Why iSchoolManager</h2>
-                <h5 class="pb-0 mb-0"> <span class="highlighter">Leading institutions across the education sector are choosing 
+            <div class="container container-fluid mt-4 pt-4 d-inline w-100 text-center">
+                <h2 class="whyischool text-center">Why iSchoolManager</h2>
+                <h5 class="pb-0 mb-0 text-center p-3 pt-1"> <span class="highlighter">Leading institutions across the education sector are choosing 
                 iSchoolManager to solve their toughest challenges</span></h5>
             </div>
             

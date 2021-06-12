@@ -25,7 +25,7 @@ function Footer() {
                             <div class="col-md-6">
                                 <div class="box">
                                     <h6 class="mb-0">Abuja office</h6>
-                                    <p><b>18 Manzini Street<br />Wuse Zone 4</b></p>
+                                    <p><small>18 Manzini Street<br />Wuse Zone 4</small></p>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function Footer() {
                             <div class="col-md-6 pb-5">
                                 <div class="box">
                                     <h6 class="mb-0">Enugu office</h6>
-                                    <p><b>?? ?????? Street<br />???? ???? ???</b></p>
+                                    <p><small>1?? ?????? Street<br />???? ???? ???</small></p>
                                 </div>
                             </div>
                         </div>
@@ -75,12 +75,12 @@ function Footer() {
 
                 <div class="row">
                     <div class="col-md-2">
-                        <div class="row justify-content-center justify-content-md-start w-50"> <img class="footer-logo" src={BetaLog} alt="..."></img> </div>
+                        <div class="row justify-content-center justify-content-md-start w-50"> <img class="footer-logo" src={BetaLog} alt="iSchoolManager logo"></img> </div>
                     </div>
                     <div class="col-md-7 d-lg-flex justify-content-center mb-3 list-links">
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">About</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Terms</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Privacy</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="About">About</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Terms">Terms</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Privacy">Privacy</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks border-1 rounded bg-danger 

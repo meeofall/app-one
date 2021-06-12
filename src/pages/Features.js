@@ -22,7 +22,7 @@ function Features() {
     
         <div class="col mb-3">
         <div class="card feature-card h-100 border-2 shadow">
-        <img src={Picstory} class="card-img-top" alt="..."></img>
+        <img src={Picstory} class="card-img-top" alt="school software"></img>
         <div class="card-body">
                 <h5 class="card-title text-center">Online Registration</h5>
                 <div class="card-title-hold">
@@ -37,7 +37,7 @@ function Features() {
                     
   <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory1} class="card-img-top" alt="..."></img>
+      <img src={Picstory1} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Student Information</h5>
            <div class="card-title-hold">
@@ -51,7 +51,7 @@ function Features() {
   
     <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory2} class="card-img-top" alt="..."></img>
+      <img src={Picstory2} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Exams & Result Management</h5>
         <div class="card-title-hold">
@@ -64,7 +64,7 @@ function Features() {
   
     <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory3} class="card-img-top" alt="..."></img>
+      <img src={Picstory3} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Email & SMS Messaging</h5>
         <div class="card-title-hold">
@@ -77,7 +77,7 @@ function Features() {
   
  <div class="col mb-3">
         <div class="card feature-card h-100 border-2 shadow">
-        <img src={Picstory4} class="card-img-top" alt="..."></img>
+        <img src={Picstory4} class="card-img-top" alt="school software"></img>
         <div class="card-body">
             <h5 class="card-title text-center">Staff Information & Management</h5>
          <div class="card-title-hold">
@@ -93,7 +93,7 @@ function Features() {
                     
   <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory5} class="card-img-top" alt="..."></img>
+      <img src={Picstory5} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Transport Management</h5>
        <div class="card-title-hold">
@@ -110,7 +110,7 @@ function Features() {
   
     <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory6} class="card-img-top" alt="..."></img>
+      <img src={Picstory6} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Computer Base Tests (CBT)</h5>
       <div class="card-title-hold">
@@ -127,7 +127,7 @@ function Features() {
   
     <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory7} class="card-img-top" alt="..."></img>
+      <img src={Picstory7} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Library Management</h5>
       <div class="card-title-hold">
@@ -145,7 +145,7 @@ function Features() {
                         
   <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory8} class="card-img-top" alt="..."></img>
+      <img src={Picstory8} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Secure Fees Payment</h5>
        <div class="card-title-hold">
@@ -161,7 +161,7 @@ function Features() {
     
           <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory9} class="card-img-top" alt="..."></img>
+      <img src={Picstory9} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Account Management</h5>
        <div class="card-title-hold">
@@ -175,7 +175,7 @@ function Features() {
           
           <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory10} class="card-img-top" alt="..."></img>
+      <img src={Picstory10} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Events Management</h5>
        <div class="card-title-hold">
@@ -190,7 +190,7 @@ function Features() {
           
           <div class="col mb-3">
     <div class="card feature-card h-100 border-2 shadow">
-      <img src={Picstory11} class="card-img-top" alt="..."></img>
+      <img src={Picstory11} class="card-img-top" alt="school software"></img>
       <div class="card-body">
         <h5 class="card-title text-center">Students & Parents Portal</h5>
        <div class="card-title-hold">

@@ -2,11 +2,9 @@ import React from 'react'
 
 function GettingStarted() {
   return (
-  
-  
       
       <body class="pt-1 mt-1" data-spy="scroll" data-offset="200" data-target="#myScrollspy">
-<div class="container">
+<div class="fluid getstarted1 p-lg-5 m-lg-4">
     
         <div class="row pt-5 mt-5 mb-5 pb-5">
           <h6 class="pl-4 ml-1 getstarted">Getting Started</h6>

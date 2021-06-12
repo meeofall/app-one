@@ -52,8 +52,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic1} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic5} alt="---" />
+                    <img class="doc-image zoom" src={Pic1} alt="school management" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic5} alt="school management" />
                 </div>
             <div class="w-100"></div>
                 <br /> <br /> <br /> <br />
@@ -68,8 +68,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic2} alt="---" /><br /><br />
-                    <img class="doc-image zoom" src={Pic3} alt="---" />
+                    <img class="doc-image zoom" src={Pic2} alt="school management" /><br /><br />
+                    <img class="doc-image zoom" src={Pic3} alt="school management" />
             </div>
             </div> <br />
 
@@ -83,7 +83,7 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic4} alt="---" />
+                    <img class="doc-image zoom" src={Pic4} alt="school management" />
                 </div>
             <div class="w-100"></div>
                 <br /> <br /> <br /> <br />
@@ -104,8 +104,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic7} alt="---" /><br /><br />
-                    <img class="doc-image zoom" src={Pic6} alt="---" />
+                    <img class="doc-image zoom" src={Pic7} alt="school management" /><br /><br />
+                    <img class="doc-image zoom" src={Pic6} alt="school management" />
             </div>
             </div>
 
@@ -136,8 +136,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic8} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic9} alt="---" />
+                    <img class="doc-image zoom" src={Pic8} alt="school management" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic9} alt="school management" />
                 </div>
                 <p class="font-weight-bold main-2"><i>...then click on the ‘Next’ button </i></p>
             </div>
@@ -153,8 +153,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic10} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic11} alt="---" />
+                    <img class="doc-image zoom" src={Pic10} alt="school manager" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic11} alt="school manager" />
                 </div>
                         <p class="font-weight-bold main-2">
                         <br /> <br />
@@ -174,8 +174,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic12} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic13} alt="---" />
+                    <img class="doc-image zoom" src={Pic12} alt="school manager" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic13} alt="school manager" />
                 </div>
                             
             </div>
@@ -194,8 +194,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="doc-image zoom" src={Pic14} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic15} alt="---" />
+                    <img class="doc-image zoom" src={Pic14} alt="school manager" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic15} alt="school management software" />
                 </div>
         
             </div>
@@ -207,8 +207,8 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col"> <br /> <br />
-                    <img class="doc-image zoom" src={Pic16} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic17} alt="---" />
+                    <img class="doc-image zoom" src={Pic16} alt="school management software" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic17} alt="school management software" />
                 </div>
         
             </div>
@@ -224,9 +224,9 @@ function Docs() {
                     </p>
                 </div>
                 <div class="col"> <br /> <br />
-                    <img class="doc-image zoom" src={Pic18} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic19} alt="---" /> <br /><br />
-                    <img class="doc-image zoom" src={Pic20} alt="---" /> 
+                    <img class="doc-image zoom" src={Pic18} alt="school management software" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic19} alt="school management software" /> <br /><br />
+                    <img class="doc-image zoom" src={Pic20} alt="school management software" /> 
                 </div>
         
             </div>

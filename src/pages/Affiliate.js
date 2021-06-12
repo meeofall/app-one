@@ -3,9 +3,9 @@ import Affiliatepic from '../images/affiliate.png';
 
 function Affiliate() {
     return (
-        <div class="affiliate-head mt-3">
-            <div class="m-5 p-5 d-flex">
-                <div class="bg-light p-3 ml-5 affiliate-div1">
+        <div class="affiliate-head mt-5">
+            <div class="d-flex affiliate-div">
+                <div class="bg-light p-3 affiliate-div1">
                     <h5>iSM Affiliate Program</h5>
                     <h6 class="text-danger font-weight-bold">Earn 10% for life</h6><br />
                     <a class="btn btn-secondary affiliate-button1" id="formButton" href="#" role="button" data-toggle="modal" data-target="#myModal">Join us now</a>
@@ -48,7 +48,7 @@ function Affiliate() {
                         </div>
 
                 </div>
-                <img class="affilpic" src={Affiliatepic} alt="---" />
+                <img class="affilpic" src={Affiliatepic} alt="school management software" />
             </div>
 
             <div class="affiliate-div2">
@@ -62,7 +62,7 @@ function Affiliate() {
 
             <br />
             <div class="bg-light p-5 mt-5">
-                <h2 class="pl-5 m-4 mt-5 mb-1 text-success font-weight-bold">What We Offer</h2>
+                <h2 class="text-success font-weight-bold crome1">What We Offer</h2>
             </div>
 
             <div class="affiliate-div2 crome">
@@ -76,7 +76,7 @@ function Affiliate() {
 
             <br />
             <div class="bg-light p-5 mt-5">
-                <h2 class="pl-5 m-4 mt-5 mb-1 text-success font-weight-bold">What You Contribute</h2>
+                <h2 class="text-success font-weight-bold crome1">What You Contribute</h2>
             </div>
 
             <div class="affiliate-div2 crome">
@@ -88,7 +88,7 @@ function Affiliate() {
 
             <br />
             <div class="bg-dark p-5 mt-5 text-center">
-                <h2 class="pl-5 m-4 mt-5 mb-5 text-danger font-weight-bold">Start Earning 10% On Each Sale For Life!</h2>
+                <h2 class="mb-3 text-danger text-center font-weight-bold">Start Earning 10% On Each Sale For Life!</h2>
                 <a class="btn btn-info align-center affiliate-button2" href="https://clients.inovateos.com/partners/signup" target="_blank" role="button">Join Now</a>
             </div>
 

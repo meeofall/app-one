@@ -25,11 +25,11 @@ function Content() {
             <div class="container container-fluid d-flex bg-dark p-3 rounded shadow justify-content-center">
              
                 
-                <p class="text-white started-paragraph">The iSchoolManager software provide a realistic, tech savvy solution for the Nigerian/African school<br />
-                seeking to integrate technology in hopes of simplifying administration, organization and learning. To also increase <br />
+                <p class="text-white started-paragraph">The iSchoolManager software provide a realistic, tech savvy solution for schools
+                seeking to integrate <br /> technology in hopes of simplifying administration, organization and learning. To also increase <br />
                 productivity, improve communication & accessibility. <br /> <br />
-                iSchoolManager is specifically designed and developed with simplicity in mind. It is easy to understand and solves both <br />
-                simple and complex problems for schools. It solves both technological and administrative requirements.
+                iSchoolManager is specifically designed and developed with simplicity in mind. It is easy to understand <br /> and solves both
+                simple and complex problems for schools. It solves both technological and <br /> administrative requirements.
                 </p>
             </div>
         </div>

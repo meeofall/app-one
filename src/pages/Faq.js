@@ -4,7 +4,7 @@ import Faqbg from '../images/question-mark.png';
 function Faq() {
     return (
         <div class="faq-main1">
-        <div class="faq-main d-grid"><img class="faqbgimg" src={Faqbg} alt="..." />
+        <div class="faq-main d-inline"><img class="faqbgimg" src={Faqbg} alt="school management software frequently asked questions" />
             <div class="accordion accordion-flush mt-5 pt-5" id="accordionFlushExample"><h2 class="text-center pb-5">Frequently Asked Questions</h2>
 
           <div class="accordion-item">
@@ -191,28 +191,40 @@ function Faq() {
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Privacy</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
-                    </div>
-                    <div class="col-md-3 justify-content-center d-flex"> <a class="footerlinks" href="#">
-                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                                <div class="fa fa-facebook"></div>
-                            </div>
-                        </a> <a class="footerlinks" href="#">
-                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                                <div class="fa fa-twitter"></div>
-                            </div>
-                        </a> <a class="footerlinks" href="#">
-                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                                <div class="fa fa-instagram"></div>
-                            </div>
-                        </a> <a class="footerlinks" href="#">
-                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                                <div class="fa fa-linkedin"></div>
-                            </div>
-                        </a> <a class="footerlinks" href="#">
-                            <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                                <div class="fa fa-google-plus"></div>
-                            </div>
-                    </a> </div>
+            </div>
+            
+            <div class="col-md-3 justify-content-center d-flex">
+              <a class="footerlinks" href="#">
+                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                    <div class="fa fa-facebook"></div>
+                   </div>
+              </a>
+              
+              <a class="footerlinks" href="#">
+                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                    <div class="fa fa-twitter"></div>
+                  </div>
+              </a>
+              
+              <a class="footerlinks" href="#">
+                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                     <div class="fa fa-instagram"></div>
+                  </div>
+              </a>
+              
+              <a class="footerlinks" href="#">
+                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                    <div class="fa fa-linkedin"></div>
+                  </div>
+              </a>
+              
+              <a class="footerlinks" href="#">
+                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
+                    <div class="fa fa-google-plus"></div>
+                  </div>
+              </a>
+            
+            </div>
 
 </div>
         </div>

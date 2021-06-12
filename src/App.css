@@ -7,6 +7,7 @@
 
 @import url(https://db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Righteous&display=swap');
                 
 
 html,
@@ -443,6 +444,10 @@ body{
 	position: relative; 
 }
 
+.getstarted1{
+  padding: 1rem;
+}
+
 .list-group{
     position: fixed; /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
     top: 220px;
@@ -539,8 +544,6 @@ body{
     padding: 3rem;
     text-align: left;
   }
-
-
 
 
 /* Contact us */
@@ -658,10 +661,15 @@ body{
   border-radius: 5px;
 }
 
+.affiliate-div{
+  margin: 3rem;
+  padding: 3rem;
+}
 .affiliate-div1{
   height: 20vh;
   width: auto;
   margin-right: 20rem;
+  margin-left: 2rem;
   border-radius: 5px;
 }
 
@@ -677,6 +685,10 @@ body{
 .crome{
   border-style: hidden;
 }
+ .crome1{
+   padding-left: 4rem;
+   margin: 2.5rem 2rem 0 2rem;
+ }
 
 #form1{
   display: none;
@@ -710,6 +722,69 @@ transform: scale(2.0);
 position:relative;      
 z-index:100;  
 }
+
+/*ABOUT*/
+.abt-p{
+  font-family: 'Righteous', cursive;
+  font-size: 1.2em;
+  padding: 20px;
+}
+.abt1{
+  border: 20px solid rgb(134, 134, 241);
+  border-radius: 5px 10px 20px 5px;
+  border-style: hidden solid solid hidden;
+  background-color: rgb(243, 240, 211);
+  padding: 20px 10px 0 10px;
+  animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.abt2{
+  border: 20px solid rgb(134, 134, 241);
+  border-radius: 20px 5px 5px 10px;
+  border-style: solid hidden hidden solid;
+  background-color: rgb(243, 240, 211);
+  padding:30px 10px 0 10px;
+  margin-bottom: 5rem;
+  animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+  .abt {
+    font-family: 'Fredoka One', cursive;
+    color: rgb(43, 6, 6);
+    font-size: 3em;
+    font-weight: 600;
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
 /* Footer */
 
 .footer-logo{
@@ -814,9 +889,7 @@ button:hover {
   margin: 3rem 0 0 0;
 }
 
-
-
-
+ 
 /*Landscape*/
 @media only screen and (min-width: 280px) and (max-width: 823px) and (orientation : landscape) {
  
@@ -908,45 +981,26 @@ button:hover {
  
   /* New features carousel*/
 
-   .section-parent{
-    height: 90vh;
-    padding-left: .1rem;
-    padding-bottom: 1rem;
+  .glassy1{
+    width: 100%;
   }
-
-  .pulley{
-    display: none;
-  }
-
-.feature-short{
-  width: 10vw;
-}
-
-.glassy1{
-  width: 100%;
-  border: none;
-  background: none;
-}
-.glassy{
-  width: 30vw;
-  margin: 0;
-  height: auto;
-}
 
 .glassy2{
-  font-weight: bolder;
-  font-size: .7rem;
+  font-weight: bold;
+  font-size: .9rem;
   text-align: center;
   border-radius: 0;
   border: none;
-  width: 100%;
+  width: auto;
   background: none;
   box-shadow: none;
-  height: 20vh;
+  height: 10vh;
 }
+
 .glassy3{
   display: none;
 }
+
 
 .fa-check{
   display: none;
@@ -1041,6 +1095,55 @@ button:hover {
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 1.5rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: .5rem .5rem .1rem 1rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+
 /*Footer*/
 
 .contact2 .bg-image {
@@ -1058,10 +1161,7 @@ button:hover {
   }
 
 
-
-
-
-@media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
 
   #navbarNav{
     background-color: rgb(212, 212, 214);
@@ -1072,6 +1172,12 @@ button:hover {
   .nav-link{
     display: block;
     color: navy;
+    margin-left: 10px;
+  }
+
+  .nav-liink{
+    margin: 10px;
+    margin-left: 20px;
   }
 
   .nav-link:hover{
@@ -1081,16 +1187,17 @@ button:hover {
   .navbar-brand{
     width: 60px;
     height: 70px;
+    margin-left: 40%;
 }
 
-.imgname{
-  display: none;
-}
-  
-
-  .navbar-toggler-icon{
-    margin-top: 20px;
+  .imgname{
+    display: none;
   }
+
+  .navbar-toggler {
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
   .display-4{
     text-align: center;
@@ -1191,11 +1298,10 @@ button:hover {
   transform: skewX(-15deg);
 }
 
-
   /* New features carousel*/
 
   .section-parent{
-    height: 55vh;
+    height: 20rem;
     padding-left: .1rem;
     padding: 0;
   }
@@ -1214,22 +1320,23 @@ button:hover {
   background: none;
 }
 .glassy{
-  width: 30vw;
+  width: 7.5rem;
   margin: 0;
   height: auto;
 }
 
 .glassy2{
   font-weight: bolder;
-  font-size: .7rem;
+  font-size: .6rem;
   text-align: center;
   border-radius: 0;
   border: none;
   width: 100%;
   background: none;
   box-shadow: none;
-  height: 15vh;
+  height: 6rem;
 }
+
 .glassy3{
   display: none;
 }
@@ -1237,7 +1344,6 @@ button:hover {
 .fa-check{
   display: none;
 }
-
   
   /*Pricing*/
  .pricing{
@@ -1435,10 +1541,17 @@ span.double-strike div.the-lines {
   }
 
   /*FAQ */
-  .faq-main1{
-    height: auto;
-    overflow-y: auto;
-  }
+
+  .div-container{
+  position: relative;
+  height: 10rem;
+}
+
+.faq-main1{
+  height: 80rem;
+  position: relative;
+}
+
   .faq-main{
     width: 100%;
     display: inline;
@@ -1451,16 +1564,80 @@ span.double-strike div.the-lines {
     display: grid;
    font-weight:400;
     position: relative;
-    top: 47%;
+    top: 49%;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-align: left;
     height: auto;
   }
 
+  /*Contact Us*/
+.contact2 .bg-image {
+  background-size: cover;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.contact-head{
+  height: 50rem;
+  position: relative;
+}
+
+/*Affiliate*/
+
+.affilpic{
+  display: none;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 22vh;
+  width: 100%;
+  margin:auto;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem;
+  width: 90%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+ 
   
-
-
 /* Footer */
 
 .footer-logo{
@@ -1618,13 +1795,13 @@ span.double-strike div.the-lines {
  
   #navbarNav{
     background-color: white;
-    padding-top: 10px;
-    margin-top: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
   }
 
   .nav-link{
     color: navy;
-    text-align: center;
+    text-align: start;
   }
 
   .nav-link:hover{
@@ -1635,11 +1812,12 @@ span.double-strike div.the-lines {
     width: auto;
     height: auto;
   }
-
+  
   .navbar-toggler-icon{
-    margin-top: 15px;
+    margin-top: 1rem;
   }
 
+  /*Hero*/
   .display-4{
     text-align: left;
     padding: 0;
@@ -1729,10 +1907,57 @@ span.double-strike div.the-lines {
   height: 15vh;
 }
 
-/* New features page */
 /* New features carousel*/
 
- 
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 37rem;
+}
+
+.features-head-text{
+  font-family: 'HVD Comic Serif Pro';
+}
+.feature-short{
+  width: 4rem;
+  margin: 1rem;
+}
+.glassy1{
+  width: auto;
+  height: 1rem;
+}
+.glassy{
+  height: 25rem;
+  width: auto;
+}
+
+.glassy2{
+  padding: .2rem;
+  text-align: center;
+}
+
+.glassy3{
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+
+.glassy .fa-check{
+  display: none;
+}
+
+.contact2 .bg-image {
+  background-size: cover;
+  width: 16rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 10px 10px 0;
+}
 
 
 /*Pricing*/
@@ -1864,12 +2089,141 @@ span.double-strike div.the-lines {
   justify-content: center;
 }
 
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 1.5rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .contact2 .bg-image {
+  
+  #navbarNav{
+    background-color: rgb(212, 212, 214);
+  }
+
+  .nav-link{
+    display: block;
+    color: navy;
+    margin-left: 10px;
+  }
+
+  .nav-liink{
+    margin: 10px;
+    margin-left: 20px;
+  }
+
+  .nav-link:hover{
+    background-color: oldlace;
+  }
+
+
+/* New features carousel*/
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 40rem;
+}
+
+.features-head-text{
+  font-family: 'HVD Comic Serif Pro';
+}
+.feature-short{
+  width: 6rem;
+  margin: 1rem;
+}
+.glassy1{
+  width: 1rem;
+}
+.glassy{
+  height: 40vh;
+  width: auto;
+}
+
+.glassy2{
+  padding: .2rem;
+  text-align: center;
+}
+
+.glassy3{
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+
+.glassy .fa-check{
+  display: none;
+}
+
+/*FAQ & CONTACT US FOOTER*/
+
+.div-container{
+  position: relative;
+  height: 10rem;
+}
+.faq-main img{
+  height: 75rem;
+}
+
+.faq-main1{
+  height: 85rem;
+  position: relative;
+  display: grid;
+}
+
+ /*Contact Us*/
+.contact2 .bg-image {
   background-size: cover;
-  width: 16rem;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1877,10 +2231,73 @@ span.double-strike div.the-lines {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
+
+.contact-head{
+  height: 62rem;
+  position: relative;
+}
+
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 1.5rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+ 
+
+/*Footer*/
+.footer-logo{
+  height: auto;
+}
+
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation : landscape) {
+
+  
   .bg-image {
   background-size: cover;
   width: 19.1rem;
@@ -1891,10 +2308,103 @@ span.double-strike div.the-lines {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
+
+/* New features carousel*/
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 37rem;
+}
+
+.features-head-text{
+  font-family: 'HVD Comic Serif Pro';
+}
+.feature-short{
+  width: 4rem;
+  margin: 1rem;
+}
+.glassy1{
+  width: auto;
+  height: 1rem;
+}
+.glassy{
+  height: 60rem;
+  width: auto;
+}
+
+.glassy2{
+  padding: .2rem;
+  text-align: center;
+}
+
+.glassy3{
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 8rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+
+/* Footer */
+.footer-logo{
+  height: fit-content;
+  width: 100%;
+}
+
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
   .contact2 .bg-image {
   background-size: cover;
   width: 16rem;
@@ -1905,4 +2415,223 @@ span.double-strike div.the-lines {
   display: flex;
   border-radius: 0 10px 10px 0;
 }
+
+/* why iSM */
+
+.bullet {
+  width: 4rem;
+}
+
+.whyischool4{
+  display: inline;
+  text-align: left;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.whyischoolpics{
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+.whyischool5{
+  width: auto;
+}
+
+/* New features carousel*/
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 37rem;
+}
+
+.features-head-text{
+  font-family: 'HVD Comic Serif Pro';
+}
+.feature-short{
+  width: 4rem;
+  margin: 1rem;
+}
+.glassy1{
+  width: auto;
+  height: 1rem;
+}
+.glassy{
+  height: 25rem;
+  width: auto;
+}
+
+.glassy2{
+  padding: .2rem;
+  text-align: center;
+}
+
+.glassy3{
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+
+/*FAQ & CONTACT US FOOTER*/
+.faq-main img{
+  height: 76rem;
+}
+
+.faq-main1{
+  height: 86rem;
+  position: relative;
+  display: grid;
+}
+
+.div-container{
+  position: relative;
+  height: 10rem;
+}
+
+ /*Contact Us*/
+.contact2 .bg-image {
+  background-size: cover;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+.contact-head{
+  height: 84rem;
+  position: relative;
+}
+
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 3rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation : landscape) {
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 8rem;
+  justify-content: center;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape) {
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 3rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 20vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 875px) and (orientation : landscape) {
+/* Hero page */
+.display4 {
+  line-height: 3rem;
+  font-family: 'SF UI Display', sans-serif;
+}
+
+/*AFFILIATE*/
+
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 3rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 40vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+/* New features carousel*/
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 20rem;
+}
+
+.glassy{
+  height: 6rem;
+  width: auto;
+}
+
+.glassy2{
+  padding: .2rem;
+  text-align: center;
+}
+
+.glassy3{
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+.getstarted1{
+  padding-right: 5rem;
+}
+
 }

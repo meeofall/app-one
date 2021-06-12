@@ -33,7 +33,7 @@ function Features() {
 
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory105} /> ADMINISTRATION</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory105} /> ADMINISTRATION</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Online Admission</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Library Management</p>
@@ -45,7 +45,7 @@ function Features() {
                             </div>
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory102} /> COMMUNICATION</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory102} /> COMMUNICATION</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Mass emailing</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Bulk SMS</p>
@@ -57,7 +57,7 @@ function Features() {
                             </div>
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory104} /> PORTALS</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory104} /> PORTALS</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Admin</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Teachers</p>
@@ -74,7 +74,7 @@ function Features() {
 
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory103} /> ACADEMICS</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory103} /> ACADEMICS</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Computer Base Testing (CBT)</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Continuous Assessment</p>
@@ -85,7 +85,7 @@ function Features() {
                             </div>
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory101} /> ACCOUNT/FINANCE</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory101} /> ACCOUNT/FINANCE</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Fee Management</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Income & Expenditure Management</p>
@@ -98,7 +98,7 @@ function Features() {
                     
                             <div class="col-4 col-md-4 mb-3 glassy1">
                                 <div class="card glassy">
-                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="..." src={Picstory106} /> ANALYTICS</h4>
+                                    <h4 class="card-title glassy2"><img class="img-fluid feature-short" alt="school management software" src={Picstory106} /> ANALYTICS</h4>
                                     <div class="card-body">
                                       <p class="card-text glassy3"><i class="fas fa-check"></i> Real-Time Visuals</p>
                                         <p class="card-text glassy3"><i class="fas fa-check"></i> Ratings</p>

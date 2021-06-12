@@ -12,6 +12,9 @@ import GettingStarted from './pages/GettingStarted.js';
 import Home from './pages/Home.js';
 import WhyiSchoolManager from './pages/WhyiSchoolManager.js';
 import Features from './pages/Features.js';
+import About from './pages/About.js';
+import Terms from './pages/Terms.js';
+import Privacy from './pages/Privacy.js';
 import Docs from './pages/Docs.js';
 import Affiliate from './pages/Affiliate.js';
 import { Switch, Route, Link, BrowserRouter as Router } from 'react-router-dom';
@@ -69,6 +72,19 @@ function App() {
           <Footer />
         </Route>
              
+        <Route path="/About">
+          <About />
+          <Footer />
+        </Route>
+
+        <Route path="/Terms">
+          <Terms />
+          <Footer />
+        </Route>
+        <Route path="/Privacy">
+          <Privacy />
+          <Footer />
+        </Route>
 
         <Route path="/Faqs">
           <Faq />
