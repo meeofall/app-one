@@ -5,8 +5,8 @@
   font-family: 'SF UI Display', sans-serif;
 }
 
-@import url(https://db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500);
+@import url('https://db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Righteous&display=swap');
                 
 
@@ -33,10 +33,6 @@ body {
   font-family: 'HVD Comic Serif Pro';
   font-variant-caps: all-petite-caps;
 }
-
-/* .navbar-toggler {
-  color: rgb(83, 81, 81);
-} */
 
 /* Hero page */
 .display-4 {

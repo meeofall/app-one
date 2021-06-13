@@ -17,7 +17,7 @@ import Terms from './pages/Terms.js';
 import Privacy from './pages/Privacy.js';
 import Docs from './pages/Docs.js';
 import Affiliate from './pages/Affiliate.js';
-import { Switch, Route, Link, BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 
 
 
