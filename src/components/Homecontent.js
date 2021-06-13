@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function Content() {
+function Homecontent() {
     return (
         <div class="container container-fluid justify-content-center pb-5 first-cont">
             <div class="container container-fluid bg-dark col rounded shadow justify-content-center second-cont">
@@ -38,4 +38,4 @@ function Content() {
     )
 }
 
-export default Content
+export default Homecontent;

@@ -1,10 +1,10 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Hero from './components/Hero.js';
-import Features1 from './components/features.js';
-import Content1 from './components/content.js';
+import Homefeatures from './components/Homefeatures.js';
+import Homecontent from './components/Homecontent.js';
 import Contact from './pages/Contact.js';
-import Pricing1 from './components/pricing.js';
+import Homepricing from './components/Homepricing.js';
 import Footer from './components/Footer.js';
 import Faq from './pages/Faq.js';
 import Pricing from './pages/Pricing.js';
@@ -29,18 +29,14 @@ function App() {
           <Switch>
             <Route exact path="/">
           <Hero />
-          <Features1 />
-          <Pricing1 />
-          <Content1 />
+          <Homefeatures />
+          <Homepricing />
+          <Homecontent />
           <Footer />
         </Route>
         
         <Route exact path="/Home">
-          <Hero />
-          <Features1 />
-          <Pricing1 />
-          <Content1 />
-          <Footer />
+          <Home />
         </Route>
 
       <Route path="/Contact-Us">

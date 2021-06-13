@@ -8,7 +8,7 @@ import Picstory106 from '../images/analytics.png';
 
 
 
-function Features() {
+function Homefeatures() {
     return (
             
         <section class="pt-5 pb-5 section-parent section-fluid justify-content-center">
@@ -119,4 +119,4 @@ function Features() {
     );
 }
 
-export default Features;
+export default Homefeatures;

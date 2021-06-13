@@ -2,9 +2,9 @@ import React from 'react';
 
 import Navbar from '../components/Navbar.js';
 import Hero from '../components/Hero.js';
-import Features1 from '../components/features.js';
-import Content1 from '../components/content.js';
-import Pricing1 from '../components/pricing.js';
+import Homefeatures from '../components/Homefeatures.js';
+import Homecontent from '../components/Homecontent.js';
+import Homepricing from '../components/Homepricing.js';
 import Footer from '../components/Footer.js';
 
 function Home() {
@@ -12,12 +12,12 @@ function Home() {
         <div>
             <Navbar />
             <Hero />
-            <Features1 />
-            <Pricing1 />
-            <Content1 />
+            <Homefeatures />
+            <Homepricing />
+            <Homecontent />
             <Footer />
         </div>
     )
 }
 
-export default Home
+export default Home;
