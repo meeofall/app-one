@@ -31,7 +31,7 @@ function Hero() {
 
     <div class="carousel-item">
         <img class="d-block w-100" src={AppCapture1} alt="Second slide"></img>
-        <div class="carousel-cap d-none d-md-block w-auto">
+        <div class="carousel-cap d-none d-md-block">
         <p class="head-2 text-center p-3 text-wrap"><i>Feature-Rich modules for fun-filled learning</i></p>
   </div>
         
@@ -39,7 +39,7 @@ function Hero() {
                             
     <div class="carousel-item">
         <img class="d-block w-100" src={AppCapture2} alt="Third slide"></img>
-        <div class="carousel-cap d-none d-md-block w-auto">
+        <div class="carousel-cap d-none d-md-block">
         <p class="head-2 text-center p-3 text-wrap"><i>Focus on your growth offline. We take care of you online.</i></p>
   </div>
     </div>
