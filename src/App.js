@@ -9,7 +9,6 @@ import Footer from './components/Footer.js';
 import Faq from './pages/Faq.js';
 import Pricing from './pages/Pricing.js';
 import GettingStarted from './pages/GettingStarted.js';
-import Home from './pages/Home.js';
 import WhyiSchoolManager from './pages/WhyiSchoolManager.js';
 import Features from './pages/Features.js';
 import About from './pages/About.js';
@@ -35,9 +34,6 @@ function App() {
           <Footer />
         </Route>
         
-        <Route exact path="/Home">
-          <Home />
-        </Route>
 
       <Route path="/Contact-Us">
         <Contact />

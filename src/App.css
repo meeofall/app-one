@@ -267,7 +267,7 @@ width: 11rem;
   text-decoration: none;
 }
 
-/* New features carousel*/
+/* New features */
 
 .section-parent{
   background-color: rgba(119, 153, 245, 0.842);
@@ -281,12 +281,11 @@ width: 11rem;
   height: auto;
   margin: 1rem;
 }
-.glassy1{
-  width: 1rem;
-}
+
 .glassy{
   height: 50vh;
-  width: auto;
+  width: 28vw;
+  margin: 2rem;
 }
 
 .glassy2{
@@ -316,6 +315,7 @@ width: 11rem;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding: .2rem;
 }
+
 
 /*Pricing*/
 
@@ -975,8 +975,7 @@ button:hover {
   }
 
  
-  /* New features carousel*/
-
+  /* New features */
   .glassy1{
     width: 100%;
   }
@@ -1294,12 +1293,11 @@ button:hover {
   transform: skewX(-15deg);
 }
 
-  /* New features carousel*/
+  /* New features */
 
   .section-parent{
-    height: 20rem;
-    padding-left: .1rem;
-    padding: 0;
+    height: 70vh;
+    margin: auto;
   }
 
   .pulley{
@@ -1307,17 +1305,17 @@ button:hover {
   }
 
 .feature-short{
-  width: 50%;
+  width: 30%;
 }
 
 .glassy1{
-  width: 100%;
+  width: auto;
   border: none;
   background: none;
 }
 .glassy{
-  width: 7.5rem;
-  margin: 0;
+  width: 6.5rem;
+  margin: auto;
   height: auto;
 }
 
@@ -1708,85 +1706,6 @@ span.double-strike div.the-lines {
 }
 
 
-
-@media only screen and (min-width: 811px) and (max-width: 1023px) and (orientation : landscape) {
-  /* content layout */
-
-  .content-items{
-    margin: .3rem;
-    padding: 1rem;
-    display: grid; 
-    float: none; 
-    width: 100%;
-    text-align: center;
-  }
-
-  .content-items1{
-    left: 5px;
-    width: auto;
-    text-align: left;
-    margin: 1rem;
-  }
-
-  .fa-hand-point-right{
-    display: none;
-  }
-
-  .started-paragraph{
-    margin: 0;
-    padding: 0;
-  }
-
-  .first-cont{
-    display: grid;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  .second-cont{
-    display: grid;
-    padding: .3rem;
-    margin-bottom: .3rem;
-    width: 100%;
-  }
-
-  .started-paragraph{
-    text-align: left;
-  }
-
-  /*Footer*/
-  .contact2 .bg-image {
-  background-size: cover;
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 0 10px 10px 0;
-}
-
-.contact2 .card.card-shadow{
-    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-  border-radius: 10px;
-}
-
-.contact2 .round-social a {
-  background: transparent;
-  margin: 0 7px;
-  padding: 11px 12px;
-}
-
-
-.socials{
-  margin: auto;
-  justify-content: center;
-}
-
-}
-
-
 @media only screen and (min-width: 768px) and (max-width: 1366px) {
  
   #navbarNav{
@@ -1903,46 +1822,7 @@ span.double-strike div.the-lines {
   height: 15vh;
 }
 
-/* New features carousel*/
 
-.section-parent{
-  background-color: rgba(119, 153, 245, 0.842);
-  height: 37rem;
-}
-
-.features-head-text{
-  font-family: 'HVD Comic Serif Pro';
-}
-.feature-short{
-  width: 4rem;
-  margin: 1rem;
-}
-.glassy1{
-  width: auto;
-  height: 1rem;
-}
-.glassy{
-  height: 25rem;
-  width: auto;
-}
-
-.glassy2{
-  padding: .2rem;
-  text-align: center;
-}
-
-.glassy3{
-  text-indent: 1%;
-  line-height: 1rem;
-  font-size: 1em;
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: .3rem;
-}
-
-.glassy .fa-check{
-  display: none;
-}
 
 .contact2 .bg-image {
   background-size: cover;
@@ -1954,7 +1834,6 @@ span.double-strike div.the-lines {
   display: flex;
   border-radius: 0 10px 10px 0;
 }
-
 
 /*Pricing*/
  .pricing{
@@ -2157,46 +2036,50 @@ span.double-strike div.the-lines {
     background-color: oldlace;
   }
 
-
-/* New features carousel*/
+  /* New features */
 
 .section-parent{
-  background-color: rgba(119, 153, 245, 0.842);
-  height: 40rem;
+    margin: auto;
+  }
+
+  .pulley{
+    display: none;
+  }
+
+.feature-short{
+  width: 50%;
 }
 
-.features-head-text{
-  font-family: 'HVD Comic Serif Pro';
-}
-.feature-short{
-  width: 6rem;
-  margin: 1rem;
-}
 .glassy1{
-  width: 1rem;
+  width: auto;
+  border: none;
+  background: none;
 }
 .glassy{
-  height: 40vh;
-  width: auto;
+  width: 10rem;
+  margin: auto;
+  height: auto;
 }
 
 .glassy2{
-  padding: .2rem;
-  text-align: center;
-}
-
-.glassy3{
-  text-indent: 1%;
-  line-height: 1rem;
+  font-weight: bolder;
   font-size: 1em;
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: .3rem;
+  text-align: center;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  background: none;
+  box-shadow: none;
+  height: 6rem;
 }
-
-.glassy .fa-check{
+.glassy3{
   display: none;
 }
+
+.fa-check{
+  display: none;
+}
+
 
 /*FAQ & CONTACT US FOOTER*/
 
@@ -2291,115 +2174,6 @@ span.double-strike div.the-lines {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation : landscape) {
-
-  
-  .bg-image {
-  background-size: cover;
-  width: 19.1rem;
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 10px 10px 0 0;
-}
-
-/* New features carousel*/
-
-.section-parent{
-  background-color: rgba(119, 153, 245, 0.842);
-  height: 37rem;
-}
-
-.features-head-text{
-  font-family: 'HVD Comic Serif Pro';
-}
-.feature-short{
-  width: 4rem;
-  margin: 1rem;
-}
-.glassy1{
-  width: auto;
-  height: 1rem;
-}
-.glassy{
-  height: 60rem;
-  width: auto;
-}
-
-.glassy2{
-  padding: .2rem;
-  text-align: center;
-}
-
-.glassy3{
-  text-indent: 1%;
-  line-height: 1rem;
-  font-size: 1em;
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: .3rem;
-}
-
-/*Affiliate*/
-
-.affilpic{
-  margin: auto;
-  width: 50%;
-  height: auto;
-}
-
-.affiliate-div{
-  width: 100%;
-  margin: 3rem 1rem 1rem 8rem;
-  justify-content: center;
-}
-
-.affiliate-div1{
-  height: 15vh;
-  width: 15rem;
-  margin:0;
-  border-radius: 5px;
-}
-
-.affiliate-div2{
-  font-weight: 600;
-  font-size: 1em;
-  border: 2px solid rgba(81, 192, 233, 0.897);
-  border-style: hidden hidden hidden solid;
-  padding: 0 1rem 0 .8rem;
-  margin: 1rem 1rem 0 7rem;
-  width: 70%;
-}
-
-#myModal{
-  width: 90%;
-  margin: auto;
-}
-.crome1{
-  text-align: left;
-  padding: 0;
-}
-.crome{
-  border-style: hidden;
-  font-weight: 400;
-}
-
-#form1{
-  display: none;
-  width: 31rem;
-}
-
-/* Footer */
-.footer-logo{
-  height: fit-content;
-  width: 100%;
-}
-
-}
-
-
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
   .contact2 .bg-image {
   background-size: cover;
@@ -2434,11 +2208,11 @@ span.double-strike div.the-lines {
   width: auto;
 }
 
-/* New features carousel*/
+/* New features */
 
 .section-parent{
   background-color: rgba(119, 153, 245, 0.842);
-  height: 37rem;
+  height: 63rem;
 }
 
 .features-head-text{
@@ -2449,20 +2223,21 @@ span.double-strike div.the-lines {
   margin: 1rem;
 }
 .glassy1{
-  width: auto;
-  height: 1rem;
+  width: 100%;
+  height: 26rem;
 }
 .glassy{
-  height: 25rem;
-  width: auto;
+  height: 23rem;
+  width: 18rem;
 }
 
 .glassy2{
-  padding: .2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 .glassy3{
+  display: block;
   text-indent: 1%;
   line-height: 1rem;
   font-size: 1em;
@@ -2562,6 +2337,116 @@ span.double-strike div.the-lines {
   margin: 3rem 1rem 1rem 8rem;
   justify-content: center;
 }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation : landscape) {
+
+  .bg-image {
+  background-size: cover;
+  width: 19.1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+
+/* New features */
+
+.section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 63rem;
+}
+
+.features-head-text{
+  font-family: 'HVD Comic Serif Pro';
+}
+.feature-short{
+  width: 4rem;
+  margin: 1rem;
+}
+.glassy1{
+  width: 100%;
+  height: 26rem;
+}
+.glassy{
+  height: 25rem;
+  width: 18rem;
+}
+
+.glassy2{
+  padding: 1rem;
+  text-align: center;
+}
+
+.glassy3{
+  display: block;
+  text-indent: 1%;
+  line-height: 1rem;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: .3rem;
+}
+
+/*Affiliate*/
+
+.affilpic{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.affiliate-div{
+  width: 100%;
+  margin: 3rem 1rem 1rem 8rem;
+  justify-content: center;
+}
+
+.affiliate-div1{
+  height: 15vh;
+  width: 15rem;
+  margin:0;
+  border-radius: 5px;
+}
+
+.affiliate-div2{
+  font-weight: 600;
+  font-size: 1em;
+  border: 2px solid rgba(81, 192, 233, 0.897);
+  border-style: hidden hidden hidden solid;
+  padding: 0 1rem 0 .8rem;
+  margin: 1rem 1rem 0 7rem;
+  width: 70%;
+}
+
+#myModal{
+  width: 90%;
+  margin: auto;
+}
+.crome1{
+  text-align: left;
+  padding: 0;
+}
+.crome{
+  border-style: hidden;
+  font-weight: 400;
+}
+
+#form1{
+  display: none;
+  width: 31rem;
+}
+
+/* Footer */
+.footer-logo{
+  height: fit-content;
+  width: 100%;
+}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape) {
@@ -2577,9 +2462,88 @@ span.double-strike div.the-lines {
   margin:0;
   border-radius: 5px;
 }
+
 }
 
-@media only screen and (min-width: 375px) and (max-width: 875px) and (orientation : landscape) {
+@media only screen and (min-width: 811px) and (max-width: 1023px) and (orientation : landscape) {
+  /* content layout */
+
+  .content-items{
+    margin: .3rem;
+    padding: 1rem;
+    display: grid; 
+    float: none; 
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-items1{
+    left: 5px;
+    width: auto;
+    text-align: left;
+    margin: 1rem;
+  }
+
+  .fa-hand-point-right{
+    display: none;
+  }
+
+  .started-paragraph{
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-cont{
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .second-cont{
+    display: grid;
+    padding: .3rem;
+    margin-bottom: .3rem;
+    width: 100%;
+  }
+
+  .started-paragraph{
+    text-align: left;
+  }
+
+  /*Footer*/
+  .contact2 .bg-image {
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0 10px 10px 0;
+}
+
+.contact2 .card.card-shadow{
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  border-radius: 10px;
+}
+
+.contact2 .round-social a {
+  background: transparent;
+  margin: 0 7px;
+  padding: 11px 12px;
+}
+
+
+.socials{
+  margin: auto;
+  justify-content: center;
+}
+
+}
+
+
+@media only screen and (min-width: 355px) and (max-width: 875px) and (orientation : landscape) {
 /* Hero page */
 .display4 {
   line-height: 3rem;
@@ -2602,32 +2566,85 @@ span.double-strike div.the-lines {
 }
 
 /* New features carousel*/
-
-.section-parent{
-  background-color: rgba(119, 153, 245, 0.842);
-  height: 20rem;
+.feature-short{
+  width: 3rem;
 }
-
-.glassy{
-  height: 6rem;
-  width: auto;
-}
-
 .glassy2{
-  padding: .2rem;
+  padding: .1rem;
   text-align: center;
+  height: 4rem;
+}
+
+  .section-parent{
+    height: 57rem;
+  }
+  .glassy{
+  height: 21rem;
+  width: 15rem;
 }
 
 .glassy3{
-  text-indent: 1%;
-  line-height: 1rem;
-  font-size: 1em;
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: .3rem;
+  display: block;
 }
+
 .getstarted1{
   padding-right: 5rem;
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 875px) and (orientation : portrait) {
+  .section-parent{
+  background-color: rgba(119, 153, 245, 0.842);
+  height: 25rem;
+}
+
+}
+
+@media only screen and (min-width: 355px) and (max-width: 736px) and (orientation : landscape) {
+  /*New Features*/
+  .section-parent{
+    height: 20rem;
+  }
+
+  .glassy3{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 737px) and (orientation : landscape) {
+  /* New features */
+  .section-parent{
+    height: 27rem;
+    margin: auto;
+  }
+
+  .pulley{
+    display: none;
+  }
+
+.feature-short{
+  width: 50%;
+}
+
+.glassy{
+  width: 10rem;
+  margin: auto;
+  height: auto;
+}
+
+.glassy2{
+  font-size: 1em;
+  height: 6rem;
+}
+
+.glassy3{
+  display: none;
+}
+
+.fa-check{
+  display: none;
 }
 
 }

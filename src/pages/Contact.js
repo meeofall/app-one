@@ -128,9 +128,9 @@ function Contact() {
                         <div class="row justify-content-center justify-content-md-start w-50"> </div>
                     </div>
                     <div class="col-md-7 d-flex justify-content-center mb-3">
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="About">About</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Terms">Terms</a> </div>
-                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="Privacy">Privacy</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="/About">About</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="/Terms">Terms</a> </div>
+                        <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="/Privacy">Privacy</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Blog</a> </div>
                         <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3"> <a class="footerlinks" href="#">Careers</a> </div>
             </div>
@@ -142,29 +142,24 @@ function Contact() {
                    </div>
               </a>
               
-              <a class="footerlinks" href="#">
+              <a class="footerlinks" href="twitter.com/iSchoolManager">
                   <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                     <div class="fa fa-twitter"></div>
                   </div>
               </a>
               
-              <a class="footerlinks" href="#">
+              <a class="footerlinks" href="instagram.com/ischoolmanager">
                   <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                      <div class="fa fa-instagram"></div>
                   </div>
               </a>
               
-              <a class="footerlinks" href="#">
+              <a class="footerlinks" href="linkedin.com/iSchoolManager">
                   <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
                     <div class="fa fa-linkedin"></div>
                   </div>
               </a>
-              
-              <a class="footerlinks" href="#">
-                  <div class="d-inline-flex px-3 px-md-2 px-lg-3 pt-3">
-                    <div class="fa fa-google-plus"></div>
-                  </div>
-              </a>
+        
             
             </div>
 

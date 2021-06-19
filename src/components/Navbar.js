@@ -7,7 +7,7 @@ function Navbar() {
         <nav class="navbar navbar-light navbar-fluid fixed-top navbar-expand-xl navbar-inverse bg-white p-0">
         <div class="container container-fluid">
           
-          <a class="navbar-brand" href="Home">
+          <a class="navbar-brand" href="/">
           <img src={BetaLogo} alt="iSchoolManager Logo" width="70" height="64"></img> <span class="imgname text-primary">iNovate School Manager</span></a>
           
           
@@ -18,13 +18,13 @@ function Navbar() {
       
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
-          <a class="nav-link" href="WhyiSchoolManager">Why iSM</a>
-          <a class="nav-link" href="Features">Features</a>
-          <a class="nav-link" href="Pricing">Pricing</a>
-          <a class="nav-link" href="Getting-Started">Getting Started</a>
-          <a class="nav-link" href="Contact-Us">Contact</a>
-          <a class="nav-link" href="Documentation">Docs</a>
-          <a class="nav-link" href="Faqs">FAQs</a>
+          <a class="nav-link" href="/WhyiSchoolManager">Why iSM</a>
+          <a class="nav-link" href="/Features">Features</a>
+          <a class="nav-link" href="/Pricing">Pricing</a>
+          <a class="nav-link" href="/Getting-Started">Getting Started</a>
+          <a class="nav-link" href="/Contact-Us">Contact</a>
+          <a class="nav-link" href="/Documentation">Docs</a>
+          <a class="nav-link" href="/Faqs">FAQs</a>
           <a class="button btn btn-danger nav-liink" href="https://clients.inovateos.com/signup" target="_blank" type="submit">Get Started for free</a>
     
             </div>
