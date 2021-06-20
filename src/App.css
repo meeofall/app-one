@@ -1312,7 +1312,33 @@ button:hover {
   width: auto;
   border: none;
   background: none;
+  animation-name: slid;
+    -webkit-animation-name: slid;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
 }
+@keyframes slid {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slid {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
 .glassy{
   width: 5rem;
   margin: auto;
@@ -1823,7 +1849,6 @@ span.double-strike div.the-lines {
 }
 
 
-
 .contact2 .bg-image {
   background-size: cover;
   width: 16rem;
@@ -2054,7 +2079,32 @@ span.double-strike div.the-lines {
   width: auto;
   border: none;
   background: none;
+animation-name: slid;
+    -webkit-animation-name: slid;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
 }
+@keyframes slid {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slid {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
 .glassy{
   width: 10rem;
   margin: auto;
