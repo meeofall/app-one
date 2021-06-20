@@ -1341,7 +1341,7 @@ button:hover {
   
   /*Pricing*/
  .pricing{
-   margin: 1rem;
+   margin: auto;
    padding: 1rem;
    margin-bottom: 3rem;
  }
