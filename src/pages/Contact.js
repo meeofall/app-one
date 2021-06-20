@@ -115,9 +115,6 @@ function Contact() {
         </div>
 
         
-    
-      
-
         
       <div class="bg-dark text-lg-start div-container justify-content-center p-5">
         
