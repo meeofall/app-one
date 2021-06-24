@@ -40,7 +40,7 @@ function Footer() {
                             <div class="col-md-6 pb-5">
                                 <div class="box">
                                     <h6 class="mb-0">Enugu office</h6>
-                                    <p><small>1?? ?????? Street<br />???? ???? ???</small></p>
+                                    <p><small> <br /> </small></p>
                                 </div>
                             </div>
                         </div>
