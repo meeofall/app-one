@@ -5,7 +5,7 @@ function Faq() {
     return (
         <div class="faq-main1">
         <div class="faq-main d-inline"><img class="faqbgimg" src={Faqbg} alt="school management software frequently asked questions" />
-            <div class="accordion accordion-flush mt-5 pt-5" id="accordionFlushExample"><h2 class="text-center pb-5">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush mt-5 pt-5" id="accordionFlushExample"><h2 class="text-center p-3">Frequently Asked Questions</h2>
 
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">

@@ -19,12 +19,19 @@ function Navbar() {
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
           <a class="nav-link" href="/WhyiSchoolManager">Why iSM</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Features">Features</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Pricing">Pricing</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Getting-Started">Getting Started</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Contact-Us">Contact</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Documentation">Docs</a>
+            <hr class="sm-md text-info m-2" />
           <a class="nav-link" href="/Faqs">FAQs</a>
+            <hr class="sm-md text-info m-2" />
           <a class="button btn btn-danger nav-liink" href="https://clients.inovateos.com/signup" target="_blank" type="submit">Get Started for free</a>
     
             </div>

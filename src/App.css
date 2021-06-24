@@ -1568,7 +1568,7 @@ span.double-strike div.the-lines {
 }
 
 .faq-main1{
-  height: 80rem;
+  height: 82rem;
   position: relative;
 }
 
@@ -1581,12 +1581,12 @@ span.double-strike div.the-lines {
   }
 
   .accordion-flush{
-    display: grid;
-   font-weight:400;
+    display: block;
+    font-weight:400;
     position: relative;
     top: 49%;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     text-align: left;
     height: auto;
   }
@@ -2663,7 +2663,7 @@ animation-name: slid;
 
 }
 
-@media only screen and (max-width: 737px) and (orientation : landscape) {
+@media only screen and (max-width: 746px) and (orientation : landscape) {
   /* New features */
   .section-parent{
     height: 27rem;
@@ -2696,5 +2696,36 @@ animation-name: slid;
 .fa-check{
   display: none;
 }
+
+  /*FAQ */
+
+  .div-container{
+  position: relative;
+  height: 10rem;
+}
+
+.faq-main1{
+  height: 76rem;
+  position: relative;
+}
+
+  .faq-main{
+    width: 100%;
+    display: inline;
+  }
+  .faqbgimg{
+    display: none;
+  }
+
+  .accordion-flush{
+    display: block;
+    font-weight:400;
+    position: relative;
+    top: 39%;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    text-align: left;
+    height: auto;
+  }
 
 }
