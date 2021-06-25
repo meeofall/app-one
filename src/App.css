@@ -1215,16 +1215,22 @@ button:hover {
   }
 
   .display444{
-    text-align: left;
+    text-align: center;
     margin: auto;
     padding-top: 2rem;
     width: auto;
   }
 
   .m4 {
-    text-align: left;
+    text-align: center;
     margin: auto;
     line-height: .01rem;
+  }
+
+  .hero-button{
+    margin-left: 0;
+    width: 10rem;
+    margin-right: .5rem
   }
 
   .hero-carousel{
