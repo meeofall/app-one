@@ -65,7 +65,7 @@ function Hero() {
                     <p>(with on-the-go <b>CBT</b>)</p>
                     </div>
 
-            <a class="btn btn-lg btn-success btn-text hero-button text-white" href="https://clients.inovateos.com/signup"><i class="fa fa-home" width="20" height="20"></i><small>Create School</small>
+            <a class="btn btn-lg btn-success btn-text hero-button text-white" href="https://clients.inovateos.com/signup"><i class="fa fa-home" width="20" height="20"></i> <small>Create School</small>
             </a>
             
             <a class="btn btn-lg btn-danger btn-text hero-button text-white" href="https://ischoolmanager.com/sch/demo"><small>Access Demo</small>
