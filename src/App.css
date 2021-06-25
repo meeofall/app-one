@@ -190,7 +190,6 @@ width: 11rem;
   background-color: rgba(250, 252, 243, 0.911);
 }
 
-
 .features-h2{
   width: 85%;
   text-align: center;
@@ -1152,7 +1151,6 @@ button:hover {
   display: flex;
   border-radius: 10px 10px 0 0;
 }
-
   }
 
 
@@ -1217,14 +1215,14 @@ button:hover {
   }
 
   .display444{
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding-top: 2rem;
     width: auto;
   }
 
   .m4 {
-    text-align: center;
+    text-align: left;
     margin: auto;
     line-height: .01rem;
   }
