@@ -17,7 +17,7 @@ function Homecontent() {
                 
                 <div class="container container-fluid col content-items">
                     <p class="text-white">What tasks do you want to solve with iSM? An expert will help you find the best solution.</p>
-                    <a class="button btn btn-light text-primary" href="#" type="submit">Contact Sales</a>
+                    <a class="button btn btn-light text-primary" href="https://api.whatsapp.com/send?phone=+2349015114004" type="submit">Contact Sales</a>
                 </div>
            
             </div>

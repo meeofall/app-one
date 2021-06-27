@@ -23,7 +23,7 @@ function Pricing() {
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>24/7 Support</li>
             </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+            <a href="https://clients.inovateos.com/signup" class="btn btn-block btn-primary text-uppercase">Get Started</a>
           </div>
         </div>
               </div>
@@ -44,7 +44,7 @@ function Pricing() {
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>24/7 Support</li>
             </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+            <a href="https://clients.inovateos.com/signup" class="btn btn-block btn-primary text-uppercase">Get Started</a>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ function Pricing() {
               <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 Support</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
             </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+            <a href="https://clients.inovateos.com/signup" class="btn btn-block btn-primary text-uppercase">Get Started</a>
           </div>
         </div>
         </div>
@@ -84,7 +84,7 @@ function Pricing() {
               <li><span class="fa-li"><i class="fas fa-check"></i></span>24/7 Support</li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
             </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Started</a>
+            <a href="https://clients.inovateos.com/signup" class="btn btn-block btn-primary text-uppercase">Get Started</a>
           </div>
         </div>
       </div>
